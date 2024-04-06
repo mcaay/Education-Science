@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "83d76a51aa6165b6",
+        "id": "fe39507bd64bb2a4",
         "type": "tabs",
         "children": [
           {
-            "id": "93494bf042edd929",
+            "id": "5f6207362683b5bf",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -172,7 +172,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.5
+    "width": 357.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,7 +188,7 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "93494bf042edd929",
+  "active": "5f6207362683b5bf",
   "lastOpenFiles": [
     "Changelog.md",
     "Weak facts.md",
