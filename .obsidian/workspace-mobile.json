@@ -1,0 +1,205 @@
+{
+  "main": {
+    "id": "09f12364fb9aeb70",
+    "type": "split",
+    "children": [
+      {
+        "id": "999685684489de32",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b1960cfd6b46d0fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "KRZ - karta pracownika.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ed761a9edb1d0477",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "9e20d74d92ceae02",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "3d2c460c95040dde",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": true,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "1d91e628328cb6be",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "57172fca3220d49e",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      },
+      {
+        "id": "a5b04901161917aa",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      },
+      {
+        "id": "b51676dca90098fa",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          }
+        }
+      }
+    ]
+  },
+  "right": {
+    "id": "b7d8e898840077b3",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "1edfe8738f1a37dc",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "KRZ - karta pracownika.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "233dc57efc142327",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "KRZ - karta pracownika.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "5741cefad3183192",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "KRZ - karta pracownika.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "command-palette:Open command palette": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": true,
+      "canvas:Create new canvas": true,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": true,
+      "audio-recorder:Start/stop recording": false,
+      "templater-obsidian:Templater": true
+    }
+  },
+  "active": "b1960cfd6b46d0fa",
+  "lastOpenFiles": [
+    "Obowiązki BETiS.canvas",
+    "KRZ - karta pracownika.md",
+    "Business - useful management knowledge.md",
+    "BETiS - obowiązki pracowników.md",
+    "Elon Musk algorithm.md",
+    "PR review - powiadomienia o szkoleniu w województwie.md",
+    "Untitled 2.canvas",
+    "2024-02-08 Radom pieniądze z KPO.md",
+    "2024-02-14 Nextcloud nie działa, a TrueNAS działa.md",
+    "Nasi agenci od oględzin w Polsce.md",
+    "Inter Cars infolinia ściągawka dla ekspertów.canvas",
+    "__files__/Pasted image 20240301091954.png",
+    "2024-03 raport prezesa.md",
+    "Untitled 12.md",
+    "2024-02-26 infolinia - ściągawka oferty dla ekspertów.md",
+    "Untitled 10.md",
+    "__files__/Propozycja rozliczenia auta SK.pdf",
+    "Untitled 1.canvas",
+    "Reminder.md",
+    "KPO.md",
+    "BETiS - dofinansowania.md",
+    "2024-01-12 spotkanie firmowe.md",
+    "Internet Mireckiego info.md",
+    "2024-01-10 zebranie info.md",
+    "__files__/Pasted image 20240109112949.png",
+    "Untitled 9.md",
+    "WN_8 algorytm.canvas",
+    "Mieszkanie.md",
+    "Zdrowy, leniwy weganin - obiady.md",
+    "🟡 Curry z czerwonej fasoli (45 min).md",
+    "🔴 Makaron pesto.md",
+    "🟡 Dal z czerwonej soczewicy.md",
+    "2023-09-13 sens życia u większości ludzi⍰.md",
+    "__files__/regulamin-użytkowania-samochodu-w-firmie-wzór.pdf",
+    "__files__/IMG_20230911_125743_Bokeh.jpg",
+    "__files__/infor auta.webp",
+    "__files__/Pasted image 20230914103718.png",
+    "__files__/Pasted image 20230911164123.png",
+    "__files__/IMG_20230911_125740_Bokeh.jpg",
+    "__files__/Pasted image 20230914102614.png",
+    "__files__/2023-09-11 13-46.pdf",
+    "__files__/P1.jpg",
+    "__files__/signal-2023-07-20-184018_003.jpeg",
+    "__files__/P1.tif",
+    "__files__/bilet_168958195.pdf",
+    "Untitled.canvas"
+  ]
+}

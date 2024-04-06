@@ -1,0 +1,114 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "tag:#Moje",
+      "color": {
+        "a": 1,
+        "rgb": 15632639
+      }
+    },
+    {
+      "query": "tag:#Electronics",
+      "color": {
+        "a": 1,
+        "rgb": 5083435
+      }
+    },
+    {
+      "query": "tag:#Education",
+      "color": {
+        "a": 1,
+        "rgb": 2136319
+      }
+    },
+    {
+      "query": "tag:#Business",
+      "color": {
+        "a": 1,
+        "rgb": 52394
+      }
+    },
+    {
+      "query": "tag:#Python",
+      "color": {
+        "a": 1,
+        "rgb": 16442232
+      }
+    },
+    {
+      "query": "tag:#IT_Programming",
+      "color": {
+        "a": 1,
+        "rgb": 16746564
+      }
+    },
+    {
+      "query": "tag:#BETiS",
+      "color": {
+        "a": 1,
+        "rgb": 16724787
+      }
+    },
+    {
+      "query": "tag:#ROOT",
+      "color": {
+        "a": 1,
+        "rgb": 0
+      }
+    },
+    {
+      "query": "tag:#Philosophy",
+      "color": {
+        "a": 1,
+        "rgb": 16745090
+      }
+    },
+    {
+      "query": "tag:#Edu-Practical-Applications",
+      "color": {
+        "a": 1,
+        "rgb": 52394
+      }
+    },
+    {
+      "query": "tag:#Edu-Strong-Facts",
+      "color": {
+        "a": 1,
+        "rgb": 16724787
+      }
+    },
+    {
+      "query": "tag:#Edu-Weak-Facts",
+      "color": {
+        "a": 1,
+        "rgb": 16746564
+      }
+    },
+    {
+      "query": "tag:#Edu-Guesses",
+      "color": {
+        "a": 1,
+        "rgb": 13421602
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": -2,
+  "nodeSizeMultiplier": 4.06350504557292,
+  "lineSizeMultiplier": 5,
+  "collapse-forces": true,
+  "centerStrength": 0.226481119791667,
+  "repelStrength": 20,
+  "linkStrength": 1,
+  "linkDistance": 500,
+  "scale": 0.2312583753047353,
+  "close": true
+}

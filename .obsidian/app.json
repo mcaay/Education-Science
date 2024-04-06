@@ -1,0 +1,39 @@
+{
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "showLineNumber": false,
+  "rightToLeft": false,
+  "autoPairBrackets": false,
+  "useTab": true,
+  "vimMode": false,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "__files__",
+  "promptDelete": false,
+  "showIndentGuide": true,
+  "userIgnoreFilters": [
+    "__files__/",
+    "__templates__/"
+  ],
+  "showFrontmatter": true,
+  "spellcheck": true,
+  "alwaysUpdateLinks": true,
+  "mobileToolbarCommands": [
+    "command-palette:open",
+    "editor:attach-file",
+    "editor:toggle-bullet-list",
+    "editor:indent-list",
+    "editor:unindent-list",
+    "editor:go-start",
+    "editor:go-end"
+  ],
+  "tabSize": 4,
+  "mobilePullAction": "workspace:close-others",
+  "autoPairMarkdown": false,
+  "readableLineLength": true,
+  "mobileQuickRibbonItem": "switcher:Open quick switcher"
+}

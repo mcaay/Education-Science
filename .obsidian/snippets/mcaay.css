@@ -1,0 +1,37 @@
+.cm-inline-code, .markdown-reading-view code {
+    background-color: rgb(80, 80, 80) !important;
+}
+.markdown-reading-view pre code {
+    /* This is targeting preview mode code blocks,
+    which we don't want to have the background
+    applied to. */
+    background-color: transparent !important;
+}
+.workspace-ribbon.mod-left {
+    display: None !important;
+    /* max-width: 0px !important; doesn't work well */
+}
+/* .is-hidden-frameless:not(.is-fullscreen) .workspace-tabs.mod-top-left-space .workspace-tab-header-container:before {
+    width: calc(var(--base-width) + 44px) !important;
+} this doesn't work */
+.is-hidden-frameless:not(.is-fullscreen) .workspace-tabs.mod-top-left-space .workspace-tab-header-container {
+    padding-left: calc(var(--frame-left-space) + var(--ribbon-width));
+}
+
+/*
+# is-collapsed changes font color
+<div class="tree-item search-result is-collapsed" draggable="true">
+
+
+
+# here is-collapsed changes arrow to point to the right instead of down
+<div class="tree-item-icon collapse-icon is-collapsed" style="">
+*/
+
+.tree-item-self {
+    color: var(--nav-item-color) !important;
+}
+
+.search-result-file-matches {
+    display: None !important;
+}

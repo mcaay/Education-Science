@@ -1,0 +1,249 @@
+{
+  "main": {
+    "id": "aa3a517ad008ac84",
+    "type": "split",
+    "children": [
+      {
+        "id": "83d76a51aa6165b6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "93494bf042edd929",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d6d8baba9e89ddba",
+    "type": "split",
+    "children": [
+      {
+        "id": "6170544e183391fb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fde5fa41db67e3f5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "161d79d9fa029c24",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "opłaty",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "06ab0b6615f8999e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ef85edf1998a629b",
+    "type": "split",
+    "children": [
+      {
+        "id": "cdc4d0d7f44a37a0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "72e16311b8cca937",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ef9bcc33616f0c6e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d381957ddd17823c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "835532916788864f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "85949857e73852e1",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1.8717041015625,
+                  "lineSizeMultiplier": 5,
+                  "collapse-forces": false,
+                  "centerStrength": 0.119222005208333,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.8019492923254626,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
+            "id": "3ad51fafda5a8991",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 357.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "templater-obsidian:Templater": false,
+      "webpage-html-export:Export Vault to HTML": false
+    }
+  },
+  "active": "93494bf042edd929",
+  "lastOpenFiles": [
+    "Changelog.md",
+    "Weak facts.md",
+    "Education Science.md",
+    "Strong facts.md",
+    "Guesses.md",
+    "Claims.md",
+    "Welcome to Education Science!.md",
+    "__templates__/obsidian templates/Basic template.md",
+    "__templates__/obsidian templates/BETiS - szablon raportu prezesa.md",
+    "__templates__/obsidian templates",
+    "__templates__/Templater plugin/Basic - Templater.md",
+    "__templates__/Templater plugin",
+    "__files__/UC-QN32IBU4.pdf",
+    "__files__/IMG_20230422_100019.jpg",
+    "__files__/Pasted image 20221114205000.png",
+    "__files__/3.jpeg",
+    "__files__/Pasted image 20221123064148.png",
+    "__files__/Pasted image 20221230171142.png",
+    "__files__/Pasted image 20221120224735.png",
+    "__files__/Pasted image 20221231145131.png",
+    "__files__/Pasted image 20221120223853.png",
+    "__files__/Pasted image 20240106201324.png",
+    "__files__/Pasted image 20230223142644.png",
+    "__files__/IMG_20151211_0001.pdf",
+    "__files__/K784-01-LAB89-20230529165104-196.pdf",
+    "__files__/IMG_20151109_0001.pdf",
+    "__files__/File 3.jpeg.md",
+    "__files__/P1.tif",
+    "__files__/Recording 20221220215638.webm",
+    "__files__/Brudnopis.pdf",
+    "__files__/IMG_20151211_0002.pdf",
+    "Untitled 15.md",
+    "Feynman learning technique.md",
+    "Education note system.canvas",
+    "Education.md",
+    "Prace IT w BETiS.md",
+    "Konkurs dla trenerów.md",
+    "Asset management solutions.md",
+    "BETiS - IT.md",
+    "Potrzeby firmy na usługi IT.md",
+    "BETiS - sprawy wewnętrzne.md",
+    "BETiS.md",
+    "Students only have to think they are being graded for their achievement to go down.md",
+    "Khan Academy - feedback.md",
+    "Chunking - kawałkowanie.md",
+    "🔴 Teacher and school variables are almost irrelevant for student achievement.md",
+    "Khan Academy.md",
+    "What my education tree makes possible.canvas",
+    "Untitled 3.canvas",
+    "Obowiązki BETiS.canvas",
+    "Inter Cars infolinia ściągawka dla ekspertów.canvas",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas",
+    "WN_8 algorytm.canvas",
+    "BETiS - zapis na szkolenia flow-chart.canvas",
+    "gfdjd 1.canvas"
+  ]
+}

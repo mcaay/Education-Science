@@ -1,0 +1,12 @@
+{
+  "accentColor": "",
+  "baseFontSize": 19,
+  "translucency": false,
+  "baseFontSizeAction": false,
+  "enabledCssSnippets": [
+    "mcaay"
+  ],
+  "theme": "system",
+  "showViewHeader": true,
+  "nativeMenus": true
+}
