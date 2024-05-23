@@ -8,11 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5f6207362683b5bf",
+            "id": "dfed68eb1df21e39",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Claims (to verify).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ef85edf1998a629b",
@@ -76,27 +82,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "72e16311b8cca937",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "ef9bcc33616f0c6e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Claims (to verify).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +109,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Claims (to verify).md"
+              }
             }
           },
           {
@@ -127,6 +120,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Claims (to verify).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -167,13 +161,34 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
+      },
+      {
+        "id": "9c7237c6b8bbf29a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "72e16311b8cca937",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Claims (to verify).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 357.5,
-    "collapsed": true
+    "width": 357.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,15 +203,21 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "5f6207362683b5bf",
+  "active": "dfed68eb1df21e39",
   "lastOpenFiles": [
-    "Changelog.md",
-    "Weak facts.md",
+    "Teacher and school variables are almost irrelevant for student achievement.md",
+    "Claims (to verify).md",
+    "BACKLOG.md",
     "Education Science.md",
-    "Strong facts.md",
-    "Guesses.md",
-    "Claims.md",
     "Welcome to Education Science!.md",
+    "Education note system.canvas",
+    "__files__/Pasted image 20240520133532.png",
+    "Unconnected practical applications.md",
+    "Changelog.md",
+    "LICENSE.md",
+    "Guesses.md",
+    "Weak facts.md",
+    "Strong facts.md",
     "__templates__/obsidian templates/Basic template.md",
     "__templates__/obsidian templates/BETiS - szablon raportu prezesa.md",
     "__templates__/obsidian templates",
@@ -212,7 +233,6 @@
     "__files__/Pasted image 20221231145131.png",
     "__files__/Pasted image 20221120223853.png",
     "__files__/Pasted image 20240106201324.png",
-    "__files__/Pasted image 20230223142644.png",
     "__files__/IMG_20151211_0001.pdf",
     "__files__/K784-01-LAB89-20230529165104-196.pdf",
     "__files__/IMG_20151109_0001.pdf",
@@ -223,7 +243,6 @@
     "__files__/IMG_20151211_0002.pdf",
     "Untitled 15.md",
     "Feynman learning technique.md",
-    "Education note system.canvas",
     "Education.md",
     "Prace IT w BETiS.md",
     "Konkurs dla trenerów.md",
@@ -233,10 +252,6 @@
     "BETiS - sprawy wewnętrzne.md",
     "BETiS.md",
     "Students only have to think they are being graded for their achievement to go down.md",
-    "Khan Academy - feedback.md",
-    "Chunking - kawałkowanie.md",
-    "🔴 Teacher and school variables are almost irrelevant for student achievement.md",
-    "Khan Academy.md",
     "What my education tree makes possible.canvas",
     "Untitled 3.canvas",
     "Obowiązki BETiS.canvas",

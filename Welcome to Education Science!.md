@@ -4,3 +4,6 @@
 - `parents:` 
 
 ***
+
+![[Pasted image 20240520133532.png]]
+graph: [[Education note system.canvas|Education note system canvas]]
