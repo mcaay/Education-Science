@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "fe39507bd64bb2a4",
+        "id": "b0eb23211d4e145a",
         "type": "tabs",
         "children": [
           {
-            "id": "dfed68eb1df21e39",
+            "id": "835e53c5f5e517c9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Claims (to verify).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -49,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "opłaty",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +61,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -87,8 +83,23 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Claims (to verify).md",
                 "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "72e16311b8cca937",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
@@ -109,9 +120,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Claims (to verify).md"
-              }
+              "state": {}
             }
           },
           {
@@ -120,11 +129,10 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Claims (to verify).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
-                  "localJumps": 1,
+                  "localJumps": 2,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": false,
@@ -143,7 +151,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.8019492923254626,
+                  "scale": 1.3314041803544192,
                   "close": true
                 }
               }
@@ -161,34 +169,12 @@
               }
             }
           }
-        ]
-      },
-      {
-        "id": "9c7237c6b8bbf29a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "72e16311b8cca937",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Claims (to verify).md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 357.5
+    "width": 696.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,55 +189,55 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "dfed68eb1df21e39",
+  "active": "835e53c5f5e517c9",
   "lastOpenFiles": [
-    "Teacher and school variables are almost irrelevant for student achievement.md",
-    "Claims (to verify).md",
-    "BACKLOG.md",
-    "Education Science.md",
     "Welcome to Education Science!.md",
+    "Use empathy.md",
+    "Act in a way that pushes the student identity toward an identity of a capable person.md",
+    "Limited working memory is better for language learning.md",
+    "Limited working memory is better than an unlimited one for detecting imperfect correlations.md",
+    "Feynman learning technique.md",
+    "Minimal manual.md",
+    "Peer instruction.md",
+    "Formative assessment.md",
+    "Plan for Mixed Abilities.md",
+    "Assess prior knowledge.md",
+    "__files__/Pasted image 20230813213922.png",
+    "Improving presentation skills.md",
+    "Tutorial vs. manual.md",
+    "__files__/Pasted image 20230814111806.png",
+    "Faded examples.md",
+    "__files__/Pasted image 20230814113429.png",
+    "__files__/Pasted image 20230814113411.png",
+    "__files__/Pasted image 20230814113354.png",
+    "__files__/Pasted image 20230814113323.png",
+    "Framework for effective explanation videos.md",
+    "__files__/Pasted image 20221126195432.png",
+    "Claims (to verify).md",
+    "Teaching from the specific to the general is more effective than from the general to the specific.md",
+    "Lectures given live by teachers is a much worse idea than superbly made video lectures.md",
+    "Students only have to think they are being graded for their achievement to go down.md",
+    "The {Why} question is how we generate the motivation to learn.md",
+    "There are 5 distinct competence levels (Dreyfus brothers model).md",
+    "The deeper the learning should be the longer the teacher should spend motivating students.md",
+    "Explaining misconceptions increases learning speed.md",
+    "__files__/Pasted image 20221126195932.png",
+    "__files__/Pasted image 20221126195911.png",
+    "Working memory has capacity of 4 elements.md",
+    "Intuitive explanation is learned more easily than correct one.md",
+    "__files__/Pasted image 20221126195354.png",
+    "Chunking.md",
     "Education note system.canvas",
-    "__files__/Pasted image 20240520133532.png",
-    "Unconnected practical applications.md",
-    "Changelog.md",
-    "LICENSE.md",
-    "Guesses.md",
-    "Weak facts.md",
-    "Strong facts.md",
-    "__templates__/obsidian templates/Basic template.md",
-    "__templates__/obsidian templates/BETiS - szablon raportu prezesa.md",
     "__templates__/obsidian templates",
-    "__templates__/Templater plugin/Basic - Templater.md",
     "__templates__/Templater plugin",
     "__files__/UC-QN32IBU4.pdf",
-    "__files__/IMG_20230422_100019.jpg",
-    "__files__/Pasted image 20221114205000.png",
-    "__files__/3.jpeg",
-    "__files__/Pasted image 20221123064148.png",
-    "__files__/Pasted image 20221230171142.png",
-    "__files__/Pasted image 20221120224735.png",
-    "__files__/Pasted image 20221231145131.png",
-    "__files__/Pasted image 20221120223853.png",
-    "__files__/Pasted image 20240106201324.png",
     "__files__/IMG_20151211_0001.pdf",
     "__files__/K784-01-LAB89-20230529165104-196.pdf",
     "__files__/IMG_20151109_0001.pdf",
-    "__files__/File 3.jpeg.md",
     "__files__/P1.tif",
     "__files__/Recording 20221220215638.webm",
     "__files__/Brudnopis.pdf",
     "__files__/IMG_20151211_0002.pdf",
-    "Untitled 15.md",
-    "Feynman learning technique.md",
-    "Education.md",
-    "Prace IT w BETiS.md",
-    "Konkurs dla trenerów.md",
-    "Asset management solutions.md",
-    "BETiS - IT.md",
-    "Potrzeby firmy na usługi IT.md",
-    "BETiS - sprawy wewnętrzne.md",
-    "BETiS.md",
-    "Students only have to think they are being graded for their achievement to go down.md",
     "What my education tree makes possible.canvas",
     "Untitled 3.canvas",
     "Obowiązki BETiS.canvas",

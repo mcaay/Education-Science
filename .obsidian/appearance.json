@@ -8,5 +8,6 @@
   ],
   "theme": "system",
   "showViewHeader": true,
-  "nativeMenus": true
+  "nativeMenus": true,
+  "cssTheme": "Minimal"
 }
