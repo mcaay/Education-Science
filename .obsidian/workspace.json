@@ -19,6 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ca68ca218f692655",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Working memory has capacity of 4 elements.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -184,8 +197,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 696.5,
-    "collapsed": true
+    "width": 669.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,10 +214,16 @@
   },
   "active": "835e53c5f5e517c9",
   "lastOpenFiles": [
+    "__files__/Pasted image 20240603204909.png",
+    "Working memory has capacity of 4 elements.md",
+    "Welcome to Education Science!.md",
+    "Claims (to verify).md",
+    "BACKLOG.md",
+    "Education Science.md",
+    "Strong facts.md",
+    "Grouping by 3-4 elements = fastest search.md",
     "__files__/Pasted image 20240601155530.png",
     "Education note system.canvas",
-    "Welcome to Education Science!.md",
-    "Education Science.md",
     "Use empathy.md",
     "Act in a way that pushes the student identity toward an identity of a capable person.md",
     "Limited working memory is better for language learning.md",
@@ -227,18 +245,12 @@
     "__files__/Pasted image 20230814113323.png",
     "Framework for effective explanation videos.md",
     "__files__/Pasted image 20221126195432.png",
-    "Claims (to verify).md",
     "Teaching from the specific to the general is more effective than from the general to the specific.md",
     "Lectures given live by teachers is a much worse idea than superbly made video lectures.md",
     "Students only have to think they are being graded for their achievement to go down.md",
     "The {Why} question is how we generate the motivation to learn.md",
-    "There are 5 distinct competence levels (Dreyfus brothers model).md",
-    "The deeper the learning should be the longer the teacher should spend motivating students.md",
-    "Explaining misconceptions increases learning speed.md",
     "__files__/Pasted image 20221126195932.png",
     "__files__/Pasted image 20221126195911.png",
-    "Working memory has capacity of 4 elements.md",
-    "__files__/Pasted image 20221126195354.png",
     "__templates__/obsidian templates",
     "__templates__/Templater plugin",
     "__files__/UC-QN32IBU4.pdf",
