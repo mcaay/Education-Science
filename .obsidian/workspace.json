@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b0eb23211d4e145a",
+        "id": "a5e1202894374fa8",
         "type": "tabs",
         "children": [
           {
-            "id": "835e53c5f5e517c9",
+            "id": "20ec99acce6559ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,19 +21,20 @@
             }
           },
           {
-            "id": "ca68ca218f692655",
+            "id": "ceef0432689a841f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Working memory has capacity of 4 elements.md",
+                "file": "How this website works (in detail).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome to Education Science!.md",
+                "file": "How this website works (in detail).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -113,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome to Education Science!.md",
+                "file": "How this website works (in detail).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome to Education Science!.md"
+                "file": "How this website works (in detail).md"
               }
             }
           },
@@ -151,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Welcome to Education Science!.md",
+                "file": "How this website works (in detail).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -174,7 +175,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 124,
-                  "scale": 2.8461369651016857,
+                  "scale": 2.23152131992542,
                   "close": true
                 }
               }
@@ -212,16 +213,17 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "835e53c5f5e517c9",
+  "active": "ceef0432689a841f",
   "lastOpenFiles": [
-    "__files__/Pasted image 20240603204909.png",
-    "Working memory has capacity of 4 elements.md",
     "Welcome to Education Science!.md",
-    "Claims (to verify).md",
-    "BACKLOG.md",
+    "How this website works (in detail).md",
     "Education Science.md",
+    "BACKLOG.md",
+    "Claims (to verify).md",
+    "Working memory has capacity of 4 elements.md",
     "Strong facts.md",
     "Grouping by 3-4 elements = fastest search.md",
+    "__files__/Pasted image 20240603204909.png",
     "__files__/Pasted image 20240601155530.png",
     "Education note system.canvas",
     "Use empathy.md",
@@ -250,7 +252,6 @@
     "Students only have to think they are being graded for their achievement to go down.md",
     "The {Why} question is how we generate the motivation to learn.md",
     "__files__/Pasted image 20221126195932.png",
-    "__files__/Pasted image 20221126195911.png",
     "__templates__/obsidian templates",
     "__templates__/Templater plugin",
     "__files__/UC-QN32IBU4.pdf",

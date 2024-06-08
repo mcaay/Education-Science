@@ -15,7 +15,7 @@ Think about this - if we managed to accelerate student learning <span style="col
 The main reason that science doesn't make its way to the classroom is that it is <span style="color: #69F;"><b>not easy</b></span> for teachers and policy-makers to find relevant new findings in education. There is nobody that would just hand it to them on a silver platter. The aim of this website is to become that somebody.
 
 > [!tip] Mission of EducationScience.org
-> Be a <span style="color: #9D5;"><b>fully free and collaborative</b></span> knowledge base that collects important scientific findings related to education and helps to bring them to the world in a way that miximizes the benefit to all human beings on Earth.
+> Be a <span style="color: #9D5;"><b>fully free and collaborative</b></span> knowledge base that collects important scientific findings related to education and helps to bring them to the world in a way that maximizes the benefit to all human beings on Earth.
 
 <span style="color: #9D5;"><b>Fully free</b></span> means:
 - all website resources are <span style="color: #9D5;"><b>fully</b></span> accessible for free, forever and for everybody <span style="color: #9D5;"><b>in all its shapes and forms</b></span>
@@ -44,7 +44,7 @@ So far so good, you could see all that in the diagram. There's just a little mor
 In fact, we will use one rule that is perhaps a little unexpected:
 
 > [!info] Rule
-> One branch can have a maximum of 4 branches (unless it is one of permitted special cases).
+> One branch can have a maximum of 4 branches (unless it is one of the permitted special cases).
 
 What? Why 4?
 
@@ -64,7 +64,7 @@ First time hearing about those facts? You can jump to check the research behind 
 
 Let's finish this welcome page by showing how to easily navigate through the tree. There are many more details that beg to be explained, but no worries, you'll learn them on the go in different parts of the tree!
 
-On the right side of this page there is a graph that shows the current page and pages that are connected to it (branches). We could call those other pages "child pages" or "children" of the current page, and the current page could be called their "parent page" or simply a "parent".
+On the right side of this page there is a graph that shows the current page and pages that are connected to it (branches). We could call those other pages <span style="color: #CC2;"><b>"child pages"</b></span> or <span style="color: #CC2;"><b>"children"</b></span> of the current page, and the current page could be called their <span style="color: #69F;"><b>"parent page"</b></span> or simply a <span style="color: #69F;"><b>"parent"</b></span>.
 
 ![[Pasted image 20240603204909.png|300]]
 
@@ -74,14 +74,4 @@ Last small detail - the arrow direction might seem strange to you, as the childr
 
 There are a couple of reasons why knowledge trees should grow from the outermost branches to the trunk, but they are a bit too technical for a welcome page, so we'll cover them someplace else. For now simply remember that child pages point to parent pages, so to get back to the trunk you can just follow the arrow direction.
 
-And by the way... how sure are you that trees grow up? :)
-
-Well, certainly if we measure height from the ground over time, that seems like quite a natural conclusion!
-
-Very well, but for a short moment try to think about this from another perspective. A tree starting with a trunk, then growing branches, then even smaller branches is just one way to look at it. Another is that it starts as the smallest branch and grows down, as if pushing itself further from the ground, and when it finally "splits" for the first time, it is still one of the two smallest branches and a new sibling and a parent have appeared!
-
-To bring some interesting science to the picture, consider the following.
-
-Trees are largely made of carbon. Where does this carbon come from? The trees take it from $\text{CO}_2$ in the atmosphere, at the same time leaving out the oxygen for us to breathe. So we could say that trees largely grow from the air and not from the ground!
-
-Anyways, enough of that. Take a walk through the tree to test how it works and if anything seems particularly interesting to you, feel free to stop there to have a read :)
+Take a walk through the tree to test how it works and if anything seems particularly interesting to you, feel free to stop there to have a read :)
