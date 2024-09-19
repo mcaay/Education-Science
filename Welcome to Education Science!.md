@@ -1,3 +1,7 @@
+---
+share_link: https://share.note.sx/m84dxvtj#vsbtGBtVx6sCK1Xe7n5yHBOeylfkSxCppDnLO8udKrA
+share_updated: 2024-09-15T00:00:42+02:00
+---
 - `date created:` `=dateformat(this.file.ctime, "yyyy-MM-dd HH:mm")`
 - `date modified:` `=dateformat(this.file.mtime, "yyyy-MM-dd HH:mm")`
 - `tags:` #ROOT
@@ -48,7 +52,7 @@ In fact, we will use one rule that is perhaps a little unexpected:
 
 What? Why 4?
 
-This is a practical application of two strong scientific facts related to education!
+This is a practical application of two strong scientific facts related to education.
 
 > [!tip] Fact 1
 > Human working memory capacity is 4 ± 1 elements or chunks.
@@ -60,9 +64,9 @@ Fact 1 means that if we group things by more than 4 elements per category, we ar
 
 Fact 2 means that if we want to respect the reader's time and make it as easy as possible for him to find whatever he is looking for, we should also group by no more than 4 elements.
 
-First time hearing about those facts? You can jump to check the research behind them [here (fact 1)]() and [here (fact 2)]() if you'd like, but if you can, hold on just a minute longer!
+First time hearing about those facts? You can jump to check the research behind them [here (fact 1)]() and [here (fact 2)]() if you'd like, but if you can, hold on just a minute longer.
 
-Let's finish this welcome page by showing how to easily navigate through the tree. There are many more details that beg to be explained, but no worries, you'll learn them on the go in different parts of the tree!
+Let's finish this welcome page by showing how to easily navigate through the tree. There are many more details that beg to be explained, but no worries, you'll learn them on the go in different parts of the tree.
 
 On the right side of this page there is a graph that shows the current page and pages that are connected to it (branches). We could call those other pages <span style="color: #CC2;"><b>"child pages"</b></span> or <span style="color: #CC2;"><b>"children"</b></span> of the current page, and the current page could be called their <span style="color: #69F;"><b>"parent page"</b></span> or simply a <span style="color: #69F;"><b>"parent"</b></span>.
 
