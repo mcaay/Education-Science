@@ -11,8 +11,13 @@
             "id": "4c02c84d454882aa",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Strong facts.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -82,6 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Strong facts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -93,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Strong facts.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Strong facts.md"
+              }
             }
           },
           {
@@ -128,6 +137,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Strong facts.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -150,7 +160,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 124,
-                  "scale": 1.769068577427704,
+                  "scale": 1.710292522422245,
                   "close": true
                 }
               }
@@ -173,8 +183,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 371.5,
-    "collapsed": true
+    "width": 371.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,13 +200,13 @@
   },
   "active": "4c02c84d454882aa",
   "lastOpenFiles": [
-    "Education note system.canvas",
-    "Welcome to Education Science!.md",
-    "Education Science.md",
-    "Strong facts.md",
     "Grouping by 3-4 elements = fastest search.md",
-    "().md",
+    "Strong facts.md",
+    "Education Science.md",
+    "Welcome to Education Science!.md",
     "How this website works (in detail).md",
+    "Education note system.canvas",
+    "().md",
     "BACKLOG.md",
     "Claims (to verify).md",
     "Working memory has capacity of 4 elements.md",

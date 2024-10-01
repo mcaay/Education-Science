@@ -1,7 +1,3 @@
----
-share_link: https://share.note.sx/m84dxvtj#vsbtGBtVx6sCK1Xe7n5yHBOeylfkSxCppDnLO8udKrA
-share_updated: 2024-09-15T00:00:42+02:00
----
 - `date created:` `=dateformat(this.file.ctime, "yyyy-MM-dd HH:mm")`
 - `date modified:` `=dateformat(this.file.mtime, "yyyy-MM-dd HH:mm")`
 - `tags:` #ROOT
