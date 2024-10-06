@@ -1,6 +1,6 @@
 - `date created:` 2023-09-12 11:52
 - `date modified:` `=dateformat(this.file.mtime, "yyyy-MM-dd HH:mm")`
-- `tags:` #Strong-Fact #TOTRANSLATE
+- `tags:` #Strong-Fact 
 - `parents:` [[Strong facts]]
 
 ***
@@ -12,67 +12,69 @@
 
 # Dirlam, 1972
 
-David K. Dirlam policzył ilu-kawałkowa pamięć byłaby optymalna pod kątem najszybszego odnajdywania informacji. Możemy to porównać do folderów na komputerze i sytuacji, gdy musimy odnaleźć jakiś plik, ale nie wiemy zupełnie gdzie on się znajduje.
+David K. Dirlam calculated how many chunks in memory would be optimal for the fastest information retrieval. We can compare this to folders on a computer and the situation where we need to find a file but have no idea where it is located.
 
-## Przykład liczbowy
+## Numerical Example
 
-Przykładowo, jeśli mamy 64 elementy (pliki) w pamięci i wszystkie byłyby w jednym "folderze", to <span style="color: #F84;"><b>średnio</b></span> (statystycznie) musielibyśmy przeczytać $\frac{1 + 64}{2} = 32,5$ nazwy plików, żeby odnaleźć właściwy plik, a <span style="color: #F33;"><b>maksymalnie</b></span> 64 nazwy plików.
+For example, if we have 64 elements (files) in memory and all of them are in one "folder," then <span style="color: #F84;"><b>on average</b></span> (statistically), we would have to read $\frac{1 + 64}{2} = 32.5$ file names to find the correct file, and <span style="color: #F33;"><b>at most</b></span> 64 file names.
 
-Gdyby te 64 pliki podzielić na 2 poziomy po 8 plików, to mielibyśmy 8 podfolderów po 8 plików każdy. Wtedy <span style="color: #F84;"><b>średnio</b></span> musielibyśmy przeczytać $\frac{1+8}{2} + \frac{1+8}{2} = 9$ nazw plików lub folderów, a <span style="color: #F33;"><b>maksymalnie</b></span> $8 + 8 = 16$, więc już znacznie mniej.
+If we were to divide these 64 files into 2 levels of 8 files each, we would have 8 subfolders with 8 files each. Then, <span style="color: #F84;"><b>on average</b></span> we would need to read $\frac{1+8}{2} + \frac{1+8}{2} = 9$ file or folder names, and <span style="color: #F33;"><b>at most</b></span> $8 + 8 = 16$, which is already much less.
 
-Gdyby pójść jeszcze dalej i podzielić te pliki na 3 poziomy po 4 elementy każdy, to mamy 4 foldery, w których są po 4 podfoldery, w których są po 4 pliki ($4^3=64$). Wtedy <span style="color: #F84;"><b>średnio</b></span> musielibyśmy przeczytać $\frac{1+4}{2} + \frac{1+4}{2} + \frac{1+4}{2} = 7,5$ nazw plików, a <span style="color: #F33;"><b>maksymalnie</b></span> $4 + 4 + 4 = 12$, więc znowu jeszcze lepiej niż przy 2 poziomach.
+If we go even further and divide these files into 3 levels of 4 elements each, we have 4 folders, each containing 4 subfolders, which in turn contain 4 files each ($4^3=64$). Then, <span style="color: #F84;"><b>on average</b></span> we would need to read $\frac{1+4}{2} + \frac{1+4}{2} + \frac{1+4}{2} = 7.5$ file names, and <span style="color: #F33;"><b>at most</b></span> $4 + 4 + 4 = 12$, so again, even better than with 2 levels.
 
-Jako że nam się dobrze liczy na tym przykładzie, pójdźmy jeszcze dalej, czyli do podziału na 6 poziomów po 2 elementy ($2^6=64$). Wtedy <span style="color: #F84;"><b>średnio</b></span> musielibyśmy przeczytać $\frac{1+2}{2} \cdot 6 = 9$ nazw plików, a <span style="color: #F33;"><b>maksymalnie</b></span> $2 \cdot 6 = 12$, więc tym razem <span style="color: #F84;"><b>średnia</b></span> liczba nazw plików do przeczytania jest już gorsza niż przy podziale na 4 elementy, ale <span style="color: #F33;"><b>maksymalna</b></span> liczba plików do przeczytania jest tak samo dobra.
+Let’s go even further and divide it into 6 levels of 2 elements each ($2^6=64$). Then, <span style="color: #F84;"><b>on average</b></span> we would need to read $\frac{1+2}{2} \cdot 6 = 9$ file names, and <span style="color: #F33;"><b>at most</b></span> $2 \cdot 6 = 12$, so this time, the <span style="color: #F84;"><b>average</b></span> number of file names to read is worse than with the division into 4 elements, but the <span style="color: #F33;"><b>maximum</b></span> number of files to read is just as good.
 
-## Zastrzeżenie
+This simple numerical example has demonstrated that there is some optimal way of organising files in folders if our goal is to find the needed file as quickly as possible. Since files and folders are just one example of a place where data is organised, this will be relevant in very many other areas. This might not be so important when one person is looking for one file on his computer, but if **a million** people are looking for concrete information a couple of times a day in a large body of knowledge, it becomes **extremely important** to have this body of knowledge organised as optimally as possible.
 
-Jeśli mamy 64 pliki i powsadzamy je w foldery, to mamy do zapamiętania więcej rzeczy niż wcześniej. Przykładowo, jeśli dzielimy te 64 pliki na 8 folderów po 8 plików, to mamy do zapamiętania 64 pliki i 8 nazw folderów.
+## Disclaimer
 
-Pojawia się więc pytanie, czy te 8 dodatkowych nazw folderów powinniśmy doliczać do puli rzeczy do zapamiętania czy też nie.
+In terms of memory, if we have 64 files and place them in folders, we end up with more things to remember than before. For example, if we divide these 64 files into 8 folders with 8 files each, we now have 64 files and 8 folder names to remember.
 
-Dirlam powołał się na inne badania i stwierdził, że nie powinniśmy doliczać tych nazw folderów do puli rzeczy do zapamiętania, jednak nie był co do tego w pełni przekonany i po prostu zostawił temat trochę moim zdaniem niedokończony.
+This raises the question: should we count these 8 additional folder names in the pool of things to remember or not?
 
-Jego argument, żeby tego nie doliczać jest taki: "foldery" są niczym urządzenia mnemoniczne (triki pamięciowe), które z nieładu tworzą porządek i poprawiają czas i skuteczność nauki, więc można ich wpływ pominąć.
+Dirlam referenced other research and concluded that we should not count these folder names in the pool of things to remember, but he wasn't fully convinced and left the topic somewhat unfinished, subjectively speaking.
 
-Ja się z tym jednak nie zgadzam. Można powiedzieć, że zapamiętanie różnych dodatkowych rzeczy pomaga w zapamiętaniu interesujących nas rzeczy (zaleta), ale konieczność poświęcenia większej ilości pamięci wciąż tu występuje (wada). Intuicja podpowiada mi też, że foldery nie są niczym urządzenia mnemoniczne. Prostym przykładem urządzenia mnemonicznego jest technika pozwalająca zapamiętać długie ciągi cyfr, np. numery telefonów czy numery kont bankowych. W najprostszej wersji wymyślamy sobie 3 rzeczy do każdej cyfry od zera do dziewięciu: postać, czynność i rzecz. Przyjmijmy, że:
-- zero - Einstein, czytanie, książka
-- jeden - Napoleon, podpalanie, armata
-- dwa - Shrek, uderzanie, pałka
-- itd.
+His argument for not counting them is: "folders" are like mnemonic devices (memory tricks) that bring order from chaos and improve learning speed and effectiveness, so their impact can be overlooked.
 
-Gdy dostajemy ciąg cyfr, np. 012 121 201 to grupujemy cyfry po trzy elementy i otrzymujemy dziwne sceny:
-- 012 - Einstein podpala pałkę
-- 121 - Napoleon uderza armatę
-- 201 - Shrek czyta jakiś tekst na armacie
+It's hard to agree with that. You could say that remembering various additional things helps in recalling the things we are interested in (advantage), but the need to dedicate more memory is still there (disadvantage). Folders do not really resemble mnemonic devices that much. A simple example of a mnemonic device is a technique that helps you remember long sequences of numbers, such as phone numbers or bank account numbers. In the simplest version, you imagine 3 things for each digit from zero to nine: a person, an action, and an object. Let's assume that:
+- zero - Einstein, reading, book
+- one - Napoleon, setting fire, cannon
+- two - Shrek, hitting, club
+- and so on.
 
-Zapamiętanie takich trzech dziwnych scen jest znacznie prostsze niż zapamiętanie dziewięciu cyfr, a im więcej cyfr, tym łatwiej zapamiętać sceny w porównaniu do liczb.
+When you get a string of numbers, for example, 012 121 201, you group the digits into three-element chunks and get strange scenes:
+- 012 - Einstein sets fire to a club
+- 121 - Napoleon hits a cannon
+- 201 - Shrek reads some text on a cannon
 
-Dodatkowo jak ktoś te sceny umieści po kolei w pałacu umysłu (kolejnej technice mnemonicznej), to może zapamiętywać naprawdę długie ciągi cyfr. Mistrzowie mają zapamiętane po trzy postaci, czynności i rzeczy nie dla każdej cyfry, ale dla każdej liczby od zera do 999. Wtedy mogą zapamiętać śmiesznie ogromne liczby, typu kilka tysięcy cyfr po przecinku w liczbie pi.
+Remembering three weird scenes is much easier than remembering nine digits, and the more digits there are, the easier it is to remember the scenes compared to the numbers.
 
-Ale wracając - nazwy folderów nie wydają mi się "niczym urządzenia mnemoniczne". Jeśli odejdziemy na chwilę od analogii do plików i folderów w stronę małych elementów w pamięci człowieka, np. konkretnych słów, gdy człowiek uczy się nowego języka, to "folder" może zajmować podobną "ilość" pamięci co "słowo".
+Additionally, if someone places these scenes in order in a memory palace (another mnemonic technique), they can remember really long sequences of numbers. Masters have memorized three characters, actions, and objects not for each digit, but for each number from zero to 999. This allows them to memorize ridiculously long numbers, like a few thousand digits of pi.
 
-Można na to spojrzeć jeszcze z innej strony, czego nie zauważył w swojej publikacji Dirlam. W naszym pytaniu nie zwracamy uwagi na to, czy wersja A wymaga zapamiętania więcej elementów niż wersja B. Pytanie dotyczy tylko i wyłącznie szybkości odnajdowania informacji. Jedną z możliwych odpowiedzi jest:
+But back to the topic—folder names do not seem to be "like mnemonic devices." If we move away from the analogy of files and folders towards small elements in human memory, such as specific words when learning a new language, a "folder" may take up a similar "amount" of memory as a "word."
 
-"Im pamięć jest podzielona na mniej kawałków aż do pewnego minimum (np. liczby 4):
-- tym szybsze jest odnajdowanie informacji <span style="color: #9D5;"><b>(zaleta)</b></span>
-- i tym więcej dodatkowych elementów trzeba zapamiętać <span style="color: #F33;"><b>(wada)</b></span>."
+We can look at this from another angle, which Dirlam did not address in his publication. In our question, we don't focus on whether version A requires memorizing more elements than version B. The question is solely about the speed of finding information. One possible answer is:
 
-My tutaj nie twierdzimy, że 3 lub 4 kawałki to na 100% idealny, najwspanialszy wybór. Znaleźliśmy po prostu jedno konkretne zastosowanie, gdzie 3 lub 4 kawałki to najlepszy wybór. Mogą być inne zastosowania lub inne aspekty, gdzie 3 lub 4 kawałki to nie jest najlepszy wybór. Żeby ocenić ogólnie jaka liczba kawałków jest najlepsza dla mózgu człowieka trzeba byłoby wszystkie te zastosowania lub aspekty sprawdzić, przyporządkować wagi zależnie od istotności danego zastosowania, które swoją drogą mogą się różnić od człowieka do człowieka, i wtedy sprawdzić średnią ważoną.
+"The fewer chunks memory is divided into, down to a certain minimum (e.g., the number 4):
+- the faster information retrieval is <span style="color: #9D5;"><b>(advantage)</b></span>
+- but the more additional elements need to be remembered <span style="color: #F33;"><b>(disadvantage)</b></span>."
 
-Mimo wszystko z ciekawości sprawdziłem również jaka liczba kawałków jest optymalna dla szybkości wyszukiwania jeśli nazwy kategorii lub "folderów" również mogą być elementem, którego szukamy.
+We are not claiming here that 3 or 4 chunks are always 100% the ideal, best choice. We simply found one specific application where 3 or 4 chunks are the best choice. There may be other applications or aspects where 3 or 4 chunks are not the best choice. To generally determine what number of chunks is best for the human brain, all of these applications or aspects would need to be tested, and weights would have to be assigned depending on the importance of each application, and then the weighted average would need to be checked. This would be interesting and difficult, and especially difficult, because some applications are more important to some people, so the weights could not be truly objective.
 
-Jedna jeszcze myśl, którą warto przyswoić - niezależnie od tego czy nazwy kategorii lub "folderów" chcemy doliczyć do puli elementów do zapamiętania, kształt drzewa pamięci jest dokładnie taki sam. Inaczej to ujmując na przykładzie - jeśli mamy 64 pliki i wsadzamy je do 8 podfolderów, to mamy 8 nazw folderów do zapamiętania, ale to nie jest tak, że nagle na ostatnim poziomie drzewa są 64 + 8 = 72 elementy. Na ostatnim poziomie wciąż są tylko 64 elementy. Jeśli szukamy akurat folderu, a nie pliku, to znajdziemy go statystycznie szybciej, bo jest on na nadrzędnym poziomie drzewa.
+Nevertheless, out of curiosity, we also checked what number of chunks is optimal for search speed if category names or "folders" can also be something we are looking for.
 
-## Wyniki czysto matematyczne
+One more thought worth considering—regardless of whether we want to include category or "folder" names in the pool of things to remember, the shape of the memory tree is exactly the same. Put another way, using our example—if we have 64 files and place them in 8 subfolders, we have 8 folder names to remember, but it's not like there are suddenly 64 + 8 = 72 elements on the last level of the tree. On the last level, there are still only 64 elements. If we are searching for a folder, not a file, we will statistically find it faster because it is on a higher level of the tree.
 
-Wyniki czysto matematyczne oznaczają odpowiedź na pytanie: *"Jeśli wyznaczymy funkcję średniej lub maksymalnej liczby sprawdzeń w zależności od tego na ile kawałków jest podzielona pamięć, to przy ilu-kawałkowej pamięci osiągniemy mimimum funkcji?"*. Tutaj wynikiem może być liczba niecałkowita, natomiast w sekcji wyników praktycznych będą wyniki dotyczące tylko liczb całkowitych, ponieważ nie można mieć pamięci podzielonej np. na 3 i pół elementów.
+## Purely mathematical results
 
-- jeśli <span style="color: #9D5;"><b>dodatkowe elementy</b></span> (kategorie - "foldery") <span style="color: #9D5;"><b>mogą być pominięte</b></span>
-	- najniższa <span style="color: #F84;"><b>średnia</b></span> liczba sprawdzeń występuje przy <span style="color: #69F;"><b>3,59 elementów</b></span>
-	- najniższa <span style="color: #F33;"><b>maksymalna</b></span> liczba sprawdzeń występuje przy <span style="color: #69F;"><b>2,72 elementów</b></span>
-- jeśli <span style="color: #E8F;"><b>dodatkowe elementy nie mogą być pominięte</b></span>
-	- najniższa <span style="color: #F84;"><b>średnia</b></span> liczba sprawdzeń występuje przy <span style="color: #69F;"><b>2,72 elementów</b></span>
-	- najniższa <span style="color: #F33;"><b>maksymalna</b></span> liczba sprawdzeń występuje przy <span style="color: #69F;"><b>2,72 elementów</b></span>
+Purely mathematical results refer to answering the question: *"If we determine the function of the average or maximum number of checks depending on how many chunks the memory is divided into, at what chunk size will the function reach its minimum?"*. Here, the result can be a non-integer number, while in the practical results section, the results will concern only integers, as you cannot have memory divided into, for example, 3 and a half elements.
+
+- if <span style="color: #9D5;"><b>additional elements</b></span> (categories - "folders") <span style="color: #9D5;"><b>can be omitted</b></span>
+	- the lowest <span style="color: #F84;"><b>average</b></span> number of checks occurs at <span style="color: #69F;"><b>3.59 elements</b></span>
+	- the lowest <span style="color: #F33;"><b>maximum</b></span> number of checks occurs at <span style="color: #69F;"><b>2.72 elements</b></span>
+- if <span style="color: #E8F;"><b>additional elements cannot be omitted</b></span>
+	- the lowest <span style="color: #F84;"><b>average</b></span> number of checks occurs at <span style="color: #69F;"><b>2.72 elements</b></span>
+	- the lowest <span style="color: #F33;"><b>maximum</b></span> number of checks occurs at <span style="color: #69F;"><b>2.72 elements</b></span>
 
 ## Wyniki praktyczne
 

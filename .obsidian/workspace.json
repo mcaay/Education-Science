@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "496029ae7b21f8fd",
+        "id": "041a74acbac1d6af",
         "type": "tabs",
         "children": [
           {
-            "id": "4c02c84d454882aa",
+            "id": "5b7e17a954a08054",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Strong facts.md",
-                "mode": "preview",
+                "file": "Grouping by 3-4 elements = fastest search.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Strong facts.md",
+                "file": "Grouping by 3-4 elements = fastest search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Strong facts.md",
+                "file": "Grouping by 3-4 elements = fastest search.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Strong facts.md"
+                "file": "Grouping by 3-4 elements = fastest search.md"
               }
             }
           },
@@ -137,7 +137,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Strong facts.md",
+                "file": "Grouping by 3-4 elements = fastest search.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -148,8 +148,72 @@
                   "showTags": false,
                   "showAttachments": false,
                   "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
+                  "collapse-color-groups": false,
+                  "colorGroups": [
+                    {
+                      "query": "tag:#Strong-Fact  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16726856
+                      }
+                    },
+                    {
+                      "query": "tag:#Strong-Facts  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16742032
+                      }
+                    },
+                    {
+                      "query": "tag:#Weak-Fact  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 15436611
+                      }
+                    },
+                    {
+                      "query": "tag:#Weak-Facts  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 15447128
+                      }
+                    },
+                    {
+                      "query": "tag:#Guess",
+                      "color": {
+                        "a": 1,
+                        "rgb": 14539121
+                      }
+                    },
+                    {
+                      "query": "tag:#Guesses  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 14539168
+                      }
+                    },
+                    {
+                      "query": "tag:#Practical-Application  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 3333079
+                      }
+                    },
+                    {
+                      "query": "tag:#START  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 4016631
+                      }
+                    },
+                    {
+                      "query": "tag:#ROOT  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 0
+                      }
+                    }
+                  ],
                   "collapse-display": true,
                   "showArrow": true,
                   "textFadeMultiplier": 0,
@@ -160,7 +224,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 124,
-                  "scale": 1.710292522422245,
+                  "scale": 1.0368368968898942,
                   "close": true
                 }
               }
@@ -183,7 +247,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 371.5
+    "width": 677.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,14 +263,17 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "4c02c84d454882aa",
+  "active": "5b7e17a954a08054",
   "lastOpenFiles": [
+    "Education note system.canvas",
     "Grouping by 3-4 elements = fastest search.md",
     "Strong facts.md",
     "Education Science.md",
+    "Guesses.md",
+    "Weak facts.md",
     "Welcome to Education Science!.md",
     "How this website works (in detail).md",
-    "Education note system.canvas",
+    "Changelog.md",
     "().md",
     "BACKLOG.md",
     "Claims (to verify).md",
@@ -231,10 +299,7 @@
     "__files__/Pasted image 20230814113411.png",
     "__files__/Pasted image 20230814113354.png",
     "__files__/Pasted image 20230814113323.png",
-    "Framework for effective explanation videos.md",
     "__files__/Pasted image 20221126195432.png",
-    "Teaching from the specific to the general is more effective than from the general to the specific.md",
-    "Lectures given live by teachers is a much worse idea than superbly made video lectures.md",
     "__files__/Pasted image 20221126195932.png",
     "__templates__/obsidian templates",
     "__templates__/Templater plugin",
