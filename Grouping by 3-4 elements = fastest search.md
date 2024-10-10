@@ -5,16 +5,14 @@
 
 ***
 
-> [!tip] Fact
+> [!success] Fact
 >  Grouping elements by 3 or 4 elements is optimal in terms of information finding speed.
 
 ***
 
-# Dirlam, 1972
+# Short summary
 
-David K. Dirlam calculated how many chunks in memory would be optimal for the fastest information retrieval. We can compare this to folders on a computer and the situation where we need to find a file but have no idea where it is located.
-
-## Numerical Example
+In 1972, David K. Dirlam calculated how many chunks in memory would be optimal for the fastest information retrieval. We can compare this to folders on a computer and the situation where we need to find a file but have no idea where it is located.
 
 For example, if we have 64 elements (files) in memory and all of them are in one "folder," then <span style="color: #F84;"><b>on average</b></span> (statistically), we would have to read $\frac{1 + 64}{2} = 32.5$ file names to find the correct file, and <span style="color: #F33;"><b>at most</b></span> 64 file names.
 
@@ -26,7 +24,32 @@ Let’s go even further and divide it into 6 levels of 2 elements each ($2^6=64$
 
 This simple numerical example has demonstrated that there is some optimal way of organising files in folders if our goal is to find the needed file as quickly as possible. Since files and folders are just one example of a place where data is organised, this will be relevant in very many other areas. This might not be so important when one person is looking for one file on his computer, but if **a million** people are looking for concrete information a couple of times a day in a large body of knowledge, it becomes **extremely important** to have this body of knowledge organised as optimally as possible.
 
-## Disclaimer
+So what is the most optimal way? Practically speaking, we can say that:
+- the lowest <span style="color: #F84;"><b>average</b></span> number of checks occurs at division by <span style="color: #69F;"><b>4 elements</b></span>
+	- 1st place - <span style="color: #69F;"><b>4 elements</b></span>
+	- 2nd place - 3 elements - 0.9% more checks
+	- 3rd place - 5 elements - 3.4% more checks
+	- 4th place - 6 elements - 8.3% more checks
+	- 5th place - 7 elements - 14.0% more checks
+	- 6th place - 2 elements and 8 elements - 20.0% more checks
+- the lowest <span style="color: #F33;"><b>maximum</b></span> number of checks occurs at division by <span style="color: #69F;"><b>3 elements</b></span>
+	- 1st place - <span style="color: #69F;"><b>3 elements</b></span>
+	- 2nd place - 2 elements and 4 elements - 5.7% more checks
+	- 4th place - 5 elements - 13.8% more checks
+	- 5th place - 6 elements - 22.6% more checks
+	- 6th place - 7 elements - 31.7% more checks
+
+The results presented above have some important caveats and possible variations, which are described further down in the note, but the general takeaway is that no matter from which perspective one is looking at the data, dividing by 3 or 4 elements is universally the most optimal.
+
+The context for this research had more to do with a memory in a human brain rather than with files and folders. Since a related finding was that human working memory can hold only 4±1 elements at a given time, Dirlam wanted to find out that perhaps it is not bad that our working memory is so limited, that perhaps it is in some important aspects very optimal that our working memory is limited in this way.
+
+# Scientific evidence
+
+## Dirlam, 1972
+
+The calculations done by Dirlam in his study are all included below and expanded upon, which should generally be more digestible than the original paper.
+
+### Considerations before diving into the math
 
 In terms of memory, if we have 64 files and place them in folders, we end up with more things to remember than before. For example, if we divide these 64 files into 8 folders with 8 files each, we now have 64 files and 8 folder names to remember.
 
@@ -65,7 +88,7 @@ Nevertheless, out of curiosity, we also checked what number of chunks is optimal
 
 One more thought worth considering—regardless of whether we want to include category or "folder" names in the pool of things to remember, the shape of the memory tree is exactly the same. Put another way, using our example—if we have 64 files and place them in 8 subfolders, we have 8 folder names to remember, but it's not like there are suddenly 64 + 8 = 72 elements on the last level of the tree. On the last level, there are still only 64 elements. If we are searching for a folder, not a file, we will statistically find it faster because it is on a higher level of the tree.
 
-## Purely mathematical results
+### Purely mathematical results
 
 Purely mathematical results refer to answering the question: *"If we determine the function of the average or maximum number of checks depending on how many chunks the memory is divided into, at what chunk size will the function reach its minimum?"*. Here, the result can be a non-integer number, while in the practical results section, the results will concern only integers, as you cannot have memory divided into, for example, 3 and a half elements.
 
@@ -76,82 +99,82 @@ Purely mathematical results refer to answering the question: *"If we determine t
 	- the lowest <span style="color: #F84;"><b>average</b></span> number of checks occurs at <span style="color: #69F;"><b>2.72 elements</b></span>
 	- the lowest <span style="color: #F33;"><b>maximum</b></span> number of checks occurs at <span style="color: #69F;"><b>2.72 elements</b></span>
 
-## Wyniki praktyczne
+### Practical results
 
-- jeśli <span style="color: #9D5;"><b>dodatkowe elementy</b></span> (kategorie - "foldery") <span style="color: #9D5;"><b>mogą być pominięte</b></span>
-	- najniższa <span style="color: #F84;"><b>średnia</b></span> liczba sprawdzeń występuje przy <span style="color: #69F;"><b>4 elementach</b></span>
-		- 1 miejsce - <span style="color: #69F;"><b>4 elementy</b></span>
-		- 2 miejsce - 3 elementy - 0,9% więcej sprawdzeń
-		- 3 miejsce - 5 elementów - 3,4% więcej sprawdzeń
-		- 4 miejsce - 6 elementów - 8,3% więcej sprawdzeń
-		- 5 miejsce - 7 elementów - 14,0% więcej sprawdzeń
-		- 6 miejsce - 2 elementy i 8 elementów - 20,0% więcej sprawdzeń
-	- najniższa <span style="color: #F33;"><b>maksymalna</b></span> liczba sprawdzeń występuje przy <span style="color: #69F;"><b>3 elementach</b></span>
-		- 1 miejsce - <span style="color: #69F;"><b>3 elementy</b></span>
-		- 2 miejsce - 2 elementy i 4 elementy - 5,7% więcej sprawdzeń
-		- 4 miejsce - 5 elementów - 13,8% więcej sprawdzeń
-		- 5 miejsce - 6 elementów - 22,6% więcej sprawdzeń
-		- 6 miejsce - 7 elementów - 31,7% więcej sprawdzeń
-- jeśli <span style="color: #E8F;"><b>dodatkowe elementy nie mogą być pominięte</b></span>
-	- najniższa <span style="color: #F84;"><b>średnia</b></span> liczba sprawdzeń występuje przy <span style="color: #69F;"><b>3 elementach</b></span>
-		- 1 miejsce - <span style="color: #69F;"><b>3 elementy</b></span>
-		- 2 miejsce - 2 elementy i 4 elementy - od 4,9% (dla $n = 10$) do 5,6% (dla $n = 10^{12}$) więcej sprawdzeń
-		- 4 miejsce - 5 elementów - od 11,9% (dla $n = 10$) do 13,6% (dla $n = 10^{12}$) więcej sprawdzeń
-		- 5 miejsce - 6 elementów - od 19,5% (dla $n = 10$) do 22,3% (dla $n = 10^{12}$) więcej sprawdzeń
-		- 6 miejsce - 7 elementów - od 27,4% (dla $n = 10$) do 31,3% (dla $n = 10^{12}$) więcej sprawdzeń
-	- najniższa <span style="color: #F33;"><b>maksymalna</b></span> liczba sprawdzeń występuje przy <span style="color: #69F;"><b>3 elementach</b></span> - jako że znalezienie nazwy folderu oznaczałoby wykonanie mniejszej liczby sprawdzeń niż maksymalna, to wyniki są tutaj identyczne jak w przypadku, gdy możemy pominąć dodatkowe elementy (kategorie - "foldery")
+- if <span style="color: #9D5;"><b>additional elements</b></span> (categories - "folders") <span style="color: #9D5;"><b>can be omitted</b></span>
+	- the lowest <span style="color: #F84;"><b>average</b></span> number of checks occurs at <span style="color: #69F;"><b>4 elements</b></span>
+		- 1st place - <span style="color: #69F;"><b>4 elements</b></span>
+		- 2nd place - 3 elements - 0.9% more checks
+		- 3rd place - 5 elements - 3.4% more checks
+		- 4th place - 6 elements - 8.3% more checks
+		- 5th place - 7 elements - 14.0% more checks
+		- 6th place - 2 elements and 8 elements - 20.0% more checks
+	- the lowest <span style="color: #F33;"><b>maximum</b></span> number of checks occurs at <span style="color: #69F;"><b>3 elements</b></span>
+		- 1st place - <span style="color: #69F;"><b>3 elements</b></span>
+		- 2nd place - 2 elements and 4 elements - 5.7% more checks
+		- 4th place - 5 elements - 13.8% more checks
+		- 5th place - 6 elements - 22.6% more checks
+		- 6th place - 7 elements - 31.7% more checks
+- if <span style="color: #E8F;"><b>additional elements cannot be omitted</b></span>
+	- the lowest <span style="color: #F84;"><b>average</b></span> number of checks occurs at <span style="color: #69F;"><b>3 elements</b></span>
+		- 1st place - <span style="color: #69F;"><b>3 elements</b></span>
+		- 2nd place - 2 elements and 4 elements - from 4.9% (for $n = 10$) to 5.6% (for $n = 10^{12}$) more checks
+		- 4th place - 5 elements - from 11.9% (for $n = 10$) to 13.6% (for $n = 10^{12}$) more checks
+		- 5th place - 6 elements - from 19.5% (for $n = 10$) to 22.3% (for $n = 10^{12}$) more checks
+		- 6th place - 7 elements - from 27.4% (for $n = 10$) to 31.3% (for $n = 10^{12}$) more checks
+	- the lowest <span style="color: #F33;"><b>maximum</b></span> number of checks occurs at <span style="color: #69F;"><b>3 elements</b></span> - since finding the folder name would mean performing fewer checks than the maximum, the results here are identical to the case where additional elements (categories - "folders") can be omitted
 
-Otrzymaliśmy 4 różne kategorie wyników, gdzie w trzech wygrał podział na 3 elementy, a w jednej podział na 4 elementy. Najważniejsze kategorie to moim zdaniem te, które dotyczą <span style="color: #F84;"><b>średniej</b></span> liczby sprawdzeń, ponieważ optymalizacja <span style="color: #F84;"><b>średniego</b></span> czasu wyszukiwania oznacza najmniej straconego czasu w życiu czy też np. czasu procesora.
+We obtained 4 different result categories, where the division into 3 elements won in three, and the division into 4 elements won in one. In my opinion, the most important categories are those concerning the <span style="color: #F84;"><b>average</b></span> number of checks, as optimizing the <span style="color: #F84;"><b>average</b></span> search time means the least wasted time in life or, for example, processor time.
 
-Są zastosowania, gdzie <span style="color: #F33;"><b>maksymalna</b></span> ścieżka mogłaby być najbardziej kluczowa, jeśli np. proces wyszukiwania musi się koniecznie zmieścić w jakimś określonym przedziale czasu, ale to są wyjątkowe przypadki. Jeden, który mam w głowie, to taki, gdzie serwer ma określoną ilość czasu na odesłanie odpowiedzi na zapytanie, bo jeśli tego nie zrobi, to system wyrzuci błąd np. z połączeniem.
+There are applications where the <span style="color: #F33;"><b>maximum</b></span> path could be the most crucial, especially if the search process must fit within a specific time frame. However, these are exceptional cases. One example is when a server has a set amount of time to respond to a query and if it doesn’t respond within this time, the system will return an error, such as a connection error.
 
-W jednej ze <span style="color: #F84;"><b>średnich</b></span> kategorii wygrał podział na 3 (zdecydowanie, bo o około 5%) , a w drugiej podział na 4 (minimalnie, bo o 0,9%). Która z tych dwóch kategorii jest ważniejsza? Nie wiem, być może zależy od konkretnego zastosowania. W przypadku folderów i plików na komputerze normalna jest sytuacja, że w danym folderze np. znajduje się jeden plik (element końcowy) i dwa podfoldery. Tylko w takim niejednorodnym "drzewie" która kategoria wygrywa? Jeśli zawsze interesuje nas plik końcowy, to chyba wygrywa podział na 4. Czasem jednak chcemy znaleźć folder, żeby go np. spakować i wysłać komuś - jeśli ktoś to często robi to wtedy mógłby wygrać podział na 3. Normalnie jednak jest to stosunkowo rzadziej występująca sytuacja niż szukanie pliku, żeby coś z nim zrobić, więc osobiście stawiałbym na podział na 4.
+In one of the <span style="color: #F84;"><b>average</b></span> categories, the division into 3 won (decisively, by about 5%), and in the other, the division into 4 (narrowly, by 0.9%). Which of these two categories is more important? It might depend on the specific application, but in the case of folders and files on a computer, it’s common to have a situation where a folder contains, for example, one file (an end element) and two subfolders. In such a non-uniform "tree," which category wins? If we’re always interested in the final file, then it seems that division into 4 wins. However, sometimes we want to find a folder to, for example, compress it and send it to someone. If someone does this often, then the division into 3 could win. Normally, though, this is a relatively less frequent situation than searching for a file to work with, so personally, I’d lean towards the division into 4.
 
-Jako że nie da się w praktyce wprowadzić zasady, że każdy folder musi mieć dokładnie 4 elementy, to jako najlepszą praktyczną zasadę można chyba przyjąć, że folder może mieć maksymalnie 4 elementy (z dopuszczalnymi określonymi wyjątkami - patrz [[Grouping by 3-4 elements = fastest search#Dodatkowe wnioski|Dodatkowe wnioski]]). Jeśli ma 3 elementy to też super. Nawet jeśli ma dwa to już co prawda mniej optymalnie, ale też całkiem dobrze. Jeśli ma jeden to wydaje się bez sensu na pierwszy rzut oka, ale da się wymyślić logiczne uzasadnienie, np. dostaliśmy plik, którego nazwy nie wolno nam zmienić, ale ta nazwa jest myląca lub ciężka do zidentyfikowania co jest wewnątrz pliku. Wtedy możemy sensownie nazwać folder, w którym będzie umieszczony ten jeden plik.
+Since it’s impractical to enforce a rule that every folder must have exactly 4 elements, the best practical rule might be that a folder can have up to 4 elements (with some allowed exceptions—see [[Grouping by 3-4 elements = fastest search#Additional conclusions|Additional conclusions]]). If it has 3 elements, that’s also great. Even if it has two, it’s less optimal, but still quite good. If it has one, it might seem pointless at first glance, but a logical justification can be made. For example, we may receive a file whose name cannot be changed, but the name is misleading or hard to identify what’s inside the file. In this case, we can give a meaningful name to the folder that contains this single file.
 
-## Matematyka wyników czysto matematycznych
+### Mathematics of purely mathematical results
 
-Niech:
-- $y_n, y_m$ - <span style="color: #F84;"><b>średnia</b></span> liczba sprawdzonych elementów aż do znalezienia szukanego elementu odpowiednio <span style="color: #9D5;"><b>nie licząc kategorii</b></span> oraz <span style="color: #E8F;"><b>licząc również kategorie</b></span>
-- $z_n, z_m$ - <span style="color: #F33;"><b>maksymalna</b></span> liczba sprawdzonych elementów aż do znalezienia szukanego elementu odpowiednio <span style="color: #9D5;"><b>nie licząc kategorii</b></span> oraz <span style="color: #E8F;"><b>licząc również kategorie</b></span>
-- $x$ - liczba kawałków, na które się dzieli jeden kawałek - "rodzic"
-- $u$ - liczba poziomów pamięci - np. liczba poziomów folderów
-- $n$ - całkowita liczba elementów do zapamiętania <span style="color: #9D5;"><b>nie licząc kategorii</b></span> ("nazw folderów")
-- $m$ - całkowita liczba elementów do zapamiętania <span style="color: #E8F;"><b>licząc również kategorie</b></span> ("nazwy folderów")
-- rodzic - element-rodzic w pamięci - coś jak folder na komputerze, w którym umieszczamy elementy-dzieci, czyli inne foldery lub pliki
-- dziecko - element-dziecko w pamięci - coś jak folder lub plik na komputerze, który jest umieszczony w folderze nadrzędnym, który jest elementem-rodzicem
+Let:
+- $y_n, y_m$ - the <span style="color: #F84;"><b>average</b></span> number of elements checked until the desired element is found, respectively <span style="color: #9D5;"><b>excluding categories</b></span> and <span style="color: #E8F;"><b>including categories</b></span>
+- $z_n, z_m$ - the <span style="color: #F33;"><b>maximum</b></span> number of elements checked until the desired element is found, respectively <span style="color: #9D5;"><b>excluding categories</b></span> and <span style="color: #E8F;"><b>including categories</b></span>
+- $x$ - the number of chunks into which one chunk, or "parent," is divided
+- $u$ - the number of memory levels - e.g., the number of folder levels
+- $n$ - the total number of elements to remember <span style="color: #9D5;"><b>excluding categories</b></span> ("folder names")
+- $m$ - the total number of elements to remember <span style="color: #E8F;"><b>including categories</b></span> ("folder names")
+- parent - a parent element in memory, similar to a folder on a computer that contains child elements, which can be other folders or files
+- child - a child element in memory, similar to a folder or file on a computer, which is placed in a parent folder
 
-Założenia:
-- Elementy w pamięci nie są uporządkowane, więc nie da się przewidzieć, czy na danym poziomie np. pierwszy element to ten, którego szukamy, czy ostatni, czy np. któryś w środku. Jeśli w przypadku folderów i plików, foldery są posegregowane datami w formacie ISO (czyli "YYYY-MM-DD"), to można byłoby szybciej odnajdywać właściwy folder niż czytając nazwy folderów od góry do dołu. Pamięć na ogół jednak tak nie działa, więc musimy założyć, że elementy nie są uporządkowane i szukanie elementu ma charakter losowy, tzn. każdy element ma takie samo prawdopodobieństwo bycia tym właściwym.
+Assumptions:
+- Elements in memory are unordered, so it is not possible to predict whether the desired element is the first, last, or somewhere in the middle on a given level. In the case of folders and files, if folders are sorted by date in ISO format (i.e., "YYYY-MM-DD"), it could be quicker to find the correct folder than reading folder names from top to bottom. Generally, however, memory does not work like this, so we must assume that elements are unordered, and the search is random, meaning each element has an equal probability of being the correct one.
 
-### Krok 1 - policzenie $y_n$
+#### Step 1 - Calculating $y_n$
 
-Jeśli $x = 4$, czyli jeden rodzic ma 4 dzieci, to <span style="color: #F84;"><b>średnio</b></span> potrzeba 2,5 sprawdzeń, żeby wybrać szukane dziecko. Jest to po prostu średnia arytmetyczna z możliwych liczb sprawdzeń, tzn. może trafimy za pierwszym strzałem, może za drugim itd. ($\frac{1+2+3+4}{4}$). Jako że jest tak na każdym poziomie pamięci, możemy napisać wzór funkcji:
+If $x = 4$, meaning one parent has 4 children, then, on <span style="color: #F84;"><b>average</b></span>, it takes 2.5 checks to select the desired child. This is simply the arithmetic mean of the possible number of checks, meaning we might find it on the first try, the second, etc. ($\frac{1+2+3+4}{4}$). Since this is the case at each level of memory, we can write the function formula as:
 $$ y = \frac{1+x}{2} \cdot u $$
-Nie chcielibyśmy jednak, żeby wynik funkcji był zależny od $u$, bo wartość $u$ jest zależna od $x$. Wynik funkcji może jednak być zależny od całkowitej liczby elementów w pamięci, bo ona nie zależy od $x$. 
+However, we would not want the function result to depend on $u$, because the value of $u$ depends on $x$. The function result can, however, depend on the total number of elements in memory, as this does not depend on $x$.
 $$ n = x^u \implies \log_x(n) = u \implies u = \frac{\ln(n)}{\ln(x)} $$
-Podstawiając:
+Substituting:
 $$ y_n = \frac{1+x}{2} \cdot \frac{\ln(n)}{\ln(x)} = \frac{\ln(n)}{2} \cdot \frac{1+x}{\ln(x)} $$
-Przyjmując, że $n$ nie jest zmienną, załóżmy $n=64$, żeby sprawdzić jak wygląda wykres tej funkcji:
+Assuming that $n$ is not a variable, let’s take $n=64$ to see how this function’s graph looks:
 
 ![[Pasted image 20230823120429.png|300]] ![[Pasted image 20230823120502.png|300]]
 
-Sytuacja, gdzie $x<1$ nas nie interesuje, bo pamięć nie może być mniej niż 1-kawałkowa. Dla $x>1$ widzimy, że wykres $y_n(x)$ ma jedno minimum globalne, czyli dokładnie to, co chcemy znaleźć, albo konkretniej dla jakiego $x$ występuje to minimum globalne.
+The case where $x < 1$ does not concern us, as memory cannot be less than 1-chunk. For $x > 1$, we see that the graph of $y_n(x)$ has a single global minimum, which is exactly what we want to find, or more specifically, for which $x$ this global minimum occurs.
 
-Aby znaleźć ten $x$, musimy znaleźć miejsce, gdzie pochodna $y_n$ wynosi 0:
-$$ (y_n)' = \frac{\ln(n)}{2} \cdot (\frac{1+x}{\ln(x)})' = \frac{\ln(n)}{2} \cdot \frac{1\cdot\ln(x) - (1+x)\cdot\frac{1}{x}}{\ln^2(x)} = $$
-$$ = \frac{\ln(n)}{2} \cdot \frac{\ln(x) - (\frac{1}{x}+1)}{\ln^2(x)} $$
-$$ (y_n)' = 0 \iff \ln(x) - (\frac{1}{x}+1) = 0 \implies \ln(x) = \frac{1}{x} + 1 $$
-Z tego równania nie jest łatwo wyliczyć $x$, ale znając wykresy obu stron równania wiemy, że dla $x>1$ wykresy te się przetną w jakimś punkcie.
+To find this $x$, we need to locate where the derivative of $y_n$ is zero:
+$$ (y_n)' = \frac{\ln(n)}{2} \cdot \left(\frac{1+x}{\ln(x)}\right)' = \frac{\ln(n)}{2} \cdot \frac{1\cdot\ln(x) - (1+x)\cdot\frac{1}{x}}{\ln^2(x)} = $$
+$$ = \frac{\ln(n)}{2} \cdot \frac{\ln(x) - \left(\frac{1}{x}+1\right)}{\ln^2(x)} $$
+$$ (y_n)' = 0 \iff \ln(x) - \left(\frac{1}{x}+1\right) = 0 \implies \ln(x) = \frac{1}{x} + 1 $$
+It’s not easy to solve for $x$ from this equation, but by knowing the graphs of both sides of the equation, we know that for $x > 1$, these graphs will intersect at some point.
 
 ![[Pasted image 20230823122627.png|450]]
 
-Idąc na łatwiznę strona wolframalpha.com podaje nam wynik tego równania wynoszący w przybliżeniu 3,59112:
+Taking the easy route, the website wolframalpha.com gives us the result of this equation as approximately 3.59112:
 ![[Pasted image 20230823122945.png|400]]
 
-Nie idąc na łatwiznę najłatwiej byłoby to programistycznie sprawdzić, tzn. zwiększając $x$ np. co 0,01, sprawdzić gdzie różnica pomiędzy wartościami tych funkcji jest najmniejsza - wyjdzie wtedy 3,59.
+Without taking the easy route, the simplest way would be to check this programmatically, i.e., by increasing $x$ by 0.01, for example, and checking where the difference between the values of these functions is smallest—this would yield 3.59.
 
-Output mojej funkcji:
+Output of my function:
 ```
 x: 3.57  |  ln(x) = 1.27257  |  1 + 1/x = 1.28011  |  diff = 0.00754
 x: 3.58  |  ln(x) = 1.27536  |  1 + 1/x = 1.27933  |  diff = 0.00397
@@ -161,27 +184,27 @@ x: 3.61  |  ln(x) = 1.28371  |  1 + 1/x = 1.27701  |  diff = 0.00670
 x: 3.62  |  ln(x) = 1.28647  |  1 + 1/x = 1.27624  |  diff = 0.01023
 ```
 
-### Krok 2 - policzenie $z_n$
+#### Step 2 - Calculating $z_n$
 
-Jeśli $x = 4$, czyli jeden rodzic ma 4 dzieci, to <span style="color: #F33;"><b>maksymalnie</b></span> potrzeba 4 sprawdzeń, żeby wybrać szukane dziecko. Jako że jest tak na każdym poziomie pamięci, możemy napisać wzór funkcji:
+If $x = 4$, meaning one parent has 4 children, then, at <span style="color: #F33;"><b>maximum</b></span>, it takes 4 checks to select the desired child. Since this is the case at each level of memory, we can write the function formula as:
 $$ z = x \cdot u $$
-Żeby wynik funkcji nie był zależny od $u$, zmienimy $u$ na $x$ i $n$ tak jak w kroku 1:
+To ensure the function result does not depend on $u$, we will replace $u$ with $x$ and $n$ as we did in step 1:
 $$ n = x^u \implies \log_x(n) = u \implies u = \frac{\ln(n)}{\ln(x)} $$
-Podstawiając:
+Substituting:
 $$ z_n = x \cdot \frac{\ln(n)}{\ln(x)} = \ln(n) \cdot \frac{x}{\ln(x)} $$
-Przyjmując, że $n$ nie jest zmienną, załóżmy $n=64$, żeby sprawdzić jak wygląda wykres tej funkcji:
+Assuming that $n$ is not a variable, let’s take $n=64$ to see how this function’s graph looks:
 
 ![[Pasted image 20230824112810.png|300]] ![[Pasted image 20230824112841.png|300]]
 
-Sytuacja, gdzie $x<1$ nas nie interesuje, bo pamięć nie może być mniej niż 1-kawałkowa. Dla $x>1$ widzimy, że wykres $z_n(x)$ ma jedno minimum globalne.
+The case where $x < 1$ does not concern us, as memory cannot be less than 1-chunk. For $x > 1$, we see that the graph of $z_n(x)$ has a single global minimum.
 
-Aby znaleźć szukany $x$, musimy znaleźć miejsce, gdzie pochodna $z_n$ wynosi 0:
+To find the desired $x$, we need to locate where the derivative of $z_n$ is zero:
 $$ (z_n)' = \ln(n) \cdot (\frac{x}{\ln(x)})' = \ln(n) \cdot \frac{1\cdot\ln(x) - x \cdot \frac{1}{x}}{\ln^2(x)} = $$
 $$ = \ln(n) \cdot \frac{\ln(x) - 1}{\ln^2(x)} $$
 $$ (z_n)' = 0 \iff \ln(x) - 1 = 0 \implies \ln(x) = 1 \implies x = e \approx 2,72$$
-### Krok 3 - policzenie $y_m$
+#### Step 3 - Calculating $y_m$
 
-Aby uwzględnić zapamiętanie kategorii, zmienia się już pierwszy wzór. Żeby wyjaśnić jak to trzeba policzyć, weźmy znowu na przykład $n = 64$ i $x = 4$. Wtedy mamy $u = 3$ poziomy. Jeśli szukamy akurat kategorii, a nie końcowego elementu, to nasze szukanie skończy się wcześniej, np. już na pierwszym poziomie. Dla wizualnego wsparcia spójrzmy na poniższą strukturę pamięci:
+To account for remembering categories, the initial formula changes. To explain how to calculate this, let’s take $n = 64$ and $x = 4$ as an example. Then we have $u = 3$ levels. If we are searching for a category instead of the final element, our search may end earlier, perhaps even on the first level. For visual support, let’s look at the following memory structure:
 
 ```
 1
@@ -201,33 +224,33 @@ Aby uwzględnić zapamiętanie kategorii, zmienia się już pierwszy wzór. Żeb
 4 ...
 ```
 
-Na pierwszym poziomie wciąż mamy 4 opcje, czyli średnia liczba wyszukań to podobnie jak wcześniej $\frac{1+4}{2} = 2,5$. Na drugim poziomie mamy 4 standardowe opcje (na powyższym przykładzie np. 11, 12, 13, 14) plus piątą opcję "zero". Opcja "zero" oznacza, że szukaliśmy "folderu, do którego weszliśmy", czyli w powyższym przykładzie element "1". Innymi słowy, wchodząc do folderu o jeden poziom głębiej jedną z możliwych opcji jest zero wyszukań. Wtedy średnia liczba wyszukań na danym poziomie jest średnią arytmetyczną z 0, 1, 2, 3, 4, czyli wynosi 2. Jest tak na wszystkich kolejnych poziomach poza poziomem pierwszym. Wzór na średnią liczbę wyszukań wynosi więc:
-$$ y_m = \frac{1+x}{2} + \frac{0 + x}{2} * (u - 1) = \frac{1 + x + xu - x}{2} = \frac{1}{2} + \frac{u}{2} x$$
-Tak jak w kroku 1 wzór na $u$ to:
+On the first level, we still have 4 options, so the average number of searches is, as before, $\frac{1+4}{2} = 2.5$. On the second level, we have 4 standard options (e.g., 11, 12, 13, 14 in the example above) plus a fifth "zero" option. The "zero" option means we were searching for the "folder we just entered," which, in the example above, is element "1". In other words, when descending one level into a folder, one of the possible options is zero searches. Thus, the average number of searches at a given level is the arithmetic mean of 0, 1, 2, 3, and 4, which equals 2. This is the case for all subsequent levels except the first level. The formula for the average number of searches is therefore:
+$$ y_m = \frac{1+x}{2} + \frac{0 + x}{2} \cdot (u - 1) = \frac{1 + x + xu - x}{2} = \frac{1}{2} + \frac{u}{2} x $$
+As in step 1, the formula for $u$ is:
 $$ u = \frac{\ln(n)}{\ln(x)} $$
-Po podstawieniu:
+Substituting:
 $$ y_m = \frac{\ln(n)}{2} \cdot \frac{x}{\ln(x)} + \frac{1}{2} $$
-Wykres funkcji dla $n = 64$ wygląda następująco:
+The graph of the function for $n = 64$ is as follows:
 
 ![[Pasted image 20230825150122.png|300]] ![[Pasted image 20230825150136.png|309]]
 
-Sytuacja, gdzie $x<1$ nas nie interesuje, bo pamięć nie może być mniej niż 1-kawałkowa. Dla $x>1$ widzimy, że wykres $y_n(x)$ ma jedno minimum globalne, czyli dokładnie to, co chcemy znaleźć, albo konkretniej dla jakiego $x$ występuje to minimum globalne.
+The case where $x < 1$ does not concern us, as memory cannot be less than 1-chunk. For $x > 1$, we see that the graph of $y_n(x)$ has a single global minimum, which is exactly what we want to find, or more specifically, for which $x$ this global minimum occurs.
 
-Aby znaleźć ten $x$, musimy znaleźć miejsce, gdzie pochodna $y_m$ wynosi 0:
+To find this $x$, we need to locate where the derivative of $y_m$ is zero:
 $$ (y_n)' = \frac{\ln(n)}{2} \cdot (\frac{x}{\ln(x)})' + (\frac{1}{2})' = \frac{\ln(n)}{2} \cdot \frac{\ln(x) - 1}{\ln^2(x)} $$
 $$ (y_m)' = 0 \iff \ln(x) - 1 = 0 \implies \ln(x) = 1 \implies x = e \approx 2,72 $$
 
-### Krok 4 - policzenie $z_m$
+#### Step 4 - Calculating $z_m$
 
-To jest najprostsza część. Skoro szukamy <span style="color: #F33;"><b>maksymalnej</b></span> liczby sprawdzonych elementów, to jest ona taka sama jak w kroku 2. Nazwy kategorii znaleźlibyśmy "po drodze", więc nie byłaby to najdłuższa droga przez drzewo możliwości. Wobec tego $z_m = z_n$, a najmniejszą wartość $z_m$ osiągamy dla $x = e \approx 2,72$.
+This is the simplest part. Since we are looking for the <span style="color: #F33;"><b>maximum</b></span> number of elements checked, it is the same as in step 2. Category names would be found "along the way", so they wouldn’t be part of the longest path through the possibility tree. Therefore, $z_m = z_n$, and the minimum value of $z_m$ is achieved for $x = e \approx 2.72$.
 
-## Matematyka wyników praktycznych
+### Mathematics of practical results
 
-### Krok 1 - optymalizacja $y_n$
+#### Step 1 - Optimizing $y_n$
 
-Potrzebny jest nam wzór wyznaczony w [[Grouping by 3-4 elements = fastest search### Krok 1 - policzenie $y_n$|kroku 1 wyników czysto matematycznych]], czyli:
+We need the formula determined in [[Grouping by 3-4 elements = fastest search### Step 1 - Calculating $y_n$|step 1 of the purely mathematical results]], which is:
 $$ y_n = \frac{\ln(n)}{2} \cdot \frac{1+x}{\ln(x)} $$
-Podstawiając liczby naturalne od 2 do 9 możemy sprawdzić który realny podział jest najbardziej optymalny. Interesujące jest też jak te wyniki zmieniają się dla różnych wartości $n$, dlatego dla wygody skorzystałem z programowania. Poniższy kod:
+By substituting natural numbers from 2 to 9, we can check which real division is the most optimal. It is also interesting to see how these results change for different values of $n$, so I used programming for convenience. The code below:
 
 ```python
 from math import log
@@ -255,7 +278,7 @@ print(pd.DataFrame(results,
       .to_markdown())
 ```
 
-generuje taką tabelkę wartości $y_n(x)$:
+generates the following table of $y_n(x)$ values:
 
 |                                                |                                          $n=64$ |                                         $n=100$ |                                         $n=10^4$ |                                         $n=10^6$ |                                         $n=10^9$ |                                        $n=10^{12}$ |
 | ----------------------------------------------:| -----------------------------------------------:| -----------------------------------------------:| ------------------------------------------------:| ------------------------------------------------:| ------------------------------------------------:| ------------------------------------------------:|
@@ -268,10 +291,10 @@ generuje taką tabelkę wartości $y_n(x)$:
 |                                          $x=8$ |                                          $9.00$ |                                          $9.97$ |                                          $19.93$ |                                          $29.90$ |                                          $44.85$ |                                          $59.79$ |
 |                                          $x=9$ |                                          $9.46$ |                                         $10.48$ |                                          $20.96$ |                                          $31.44$ |                                          $47.16$ |                                          $62.88$ |
 
-z której dobrze widać jakie wartości $x$ są najbardziej optymalne. Wyznaczmy wzór na wartość o ile procent więcej sprawdzeń wymaga $x_2$ w porównaniu do $x_1$:
+from which we can clearly see which $x$ values are the most optimal. Let's derive a formula for the percentage by which $x_2$ requires more checks compared to $x_1$:
 $$ \frac{y_{n}(x_2)}{y_{n}(x_1)} \cdot 100\% - 100\% = \frac{\frac{\ln(n)}{2} \cdot \frac{1+x_2}{\ln(x_2)}} {\frac{\ln(n)}{2} \cdot \frac{1+x_1}{\ln(x_1)}} \cdot 100\% - 100\% = $$
 $$ = \frac{\ln(x_1)}{\ln(x_2)} \cdot \frac{1+x_2}{1+x_1} \cdot 100\% - 100\% $$
-Jak widać $n$ nie wpływa zupełnie na ten procent. Dodając poniższy kawałek kodu:
+As we can see, $n$ does not affect this percentage at all. By adding the following piece of code:
 
 ```python
 def calculate_percent_difference(x1, x2):
@@ -294,7 +317,7 @@ print(pd.DataFrame(results2,
       .to_markdown())
 ```
 
-otrzymujemy następującą tabelkę:
+we obtain the following table:
 
 |                                                |                                          $n=64$ |                                         $n=100$ |                                         $n=10^4$ |                                         $n=10^6$ |                                         $n=10^9$ |                                      $n=10^{12}$ |
 | ----------------------------------------------:| -----------------------------------------------:| -----------------------------------------------:| ------------------------------------------------:| ------------------------------------------------:| ------------------------------------------------:| ------------------------------------------------:|
@@ -307,11 +330,11 @@ otrzymujemy następującą tabelkę:
 |                                          $x=8$ |                                       $+20.0\%$ |                                       $+20.0\%$ |                                        $+20.0\%$ |                                        $+20.0\%$ |                                        $+20.0\%$ |                                        $+20.0\%$ |
 |                                          $x=9$ |                                       $+26.2\%$ |                                       $+26.2\%$ |                                        $+26.2\%$ |                                        $+26.2\%$ |                                        $+26.2\%$ |                                        $+26.2\%$ |
 
-### Krok 2 - optymalizacja $z_n$
+#### Step 2 - Optimizing $z_n$
 
-Tym razem potrzebny jest nam wzór wyznaczony w [[Grouping by 3-4 elements = fastest search### Krok 2 - policzenie $z_n$|kroku 2 wyników czysto matematycznych]], czyli:
+This time, we need the formula determined in [[Grouping by 3-4 elements = fastest search### Step 2 - Calculating $z_n$|step 2 of the purely mathematical results]], which is:
 $$ z_n = \ln(n) \cdot \frac{x}{\ln(x)} $$
-Mając ten wzór wygenerujemy tabelkę interesujących wyników $z_n(x)$. Możemy użyć tego samego kodu co w kroku 1, zmieniając tylko definicję funkcji:
+With this formula, we will generate a table of interesting $z_n(x)$ results. We can use the same code as in step 1, just changing the function definition:
 
 ```python
 def calculate_chunk_score(n, x):
@@ -330,11 +353,11 @@ def calculate_chunk_score(n, x):
 |                                          $x=8$ |                                          $16.00$ |                                          $17.72$ |                                          $35.43$ |                                          $53.15$ |                                          $79.73$ |                                         $106.30$ |
 |                                          $x=9$ |                                          $17.04$ |                                          $18.86$ |                                          $37.73$ |                                          $56.59$ |                                          $84.88$ |                                         $113.18$ |
 
-Wzór na wartość o ile procent więcej sprawdzeń wymaga $x_2$ w porównaniu do $x_1$:
+Formula for the percentage by which $x_2$ requires more checks compared to $x_1$:
 $$ \frac{z_{n}(x_2)}{z_{n}(x_1)} \cdot 100\% - 100\% = \frac{\ln(n) \cdot \frac{x_2}{\ln(x_2)}} {\ln(n) \cdot \frac{x_1}{\ln(x_1)}} \cdot 100\% - 100\% = $$
 $$ = \frac{\ln(x_1)}{\ln(x_2)} \cdot \frac{x_2}{x_1} \cdot 100\% - 100\% $$
 
-W tym przypadku $n$ też nie wpływa na procent. Jako że tutaj wygrał podział na 3, konieczna jest zmiana większego kawałka kodu:
+In this case, $n$ also does not affect the percentage. Since the division into 3 won here, a larger piece of code needs to be changed:
 
 ```python
 def calculate_percent_difference(x1, x2):
@@ -357,7 +380,7 @@ print(pd.DataFrame(results2,
       .to_markdown())
 ```
 
-aby otrzymać interesującą nas tabelkę:
+to obtain the table we are interested in:
 
 |                                                |                                           $n=64$ |                                          $n=100$ |                                         $n=10^4$ |                                         $n=10^6$ |                                         $n=10^9$ |                                      $n=10^{12}$ |
 | ----------------------------------------------:| ------------------------------------------------:| ------------------------------------------------:| ------------------------------------------------:| ------------------------------------------------:| ------------------------------------------------:| ------------------------------------------------:|
@@ -370,12 +393,12 @@ aby otrzymać interesującą nas tabelkę:
 |                                          $x=8$ |                                        $+40.9\%$ |                                        $+40.9\%$ |                                        $+40.9\%$ |                                        $+40.9\%$ |                                        $+40.9\%$ |                                        $+40.9\%$ |
 |                                          $x=9$ |                                        $+50.0\%$ |                                        $+50.0\%$ |                                        $+50.0\%$ |                                        $+50.0\%$ |                                        $+50.0\%$ |                                        $+50.0\%$ |
 
-### Krok 3 - optymalizacja $y_m$
+#### Step 3 - Optimizing $y_m$
 
-Wzór wyznaczony w [[Grouping by 3-4 elements = fastest search### Krok 3 - policzenie $y_m$|kroku 3 wyników czysto matematycznych]], czyli:
+The formula determined in [[Grouping by 3-4 elements = fastest search### Step 3 - Calculating $y_m$|step 3 of the purely mathematical results]], which is:
 $$ y_m = \frac{\ln(n)}{2} \cdot \frac{x}{\ln(x)} + \frac{1}{2} $$
 
-Podobnie jak w kroku 2 tutaj również możemy użyć kodu z kroku 1, zmieniając jedynie definicję funkcji:
+Similar to step 2, here we can also use the code from step 1, changing only the function definition:
 
 ```python
 def calculate_chunk_score(n, x):
@@ -383,7 +406,7 @@ def calculate_chunk_score(n, x):
     return f"${score:.2f}$"
 ```
 
-i otrzymujemy następującą tabelkę:
+and we obtain the following table:
 
 |                                                |                                          $n=64$ |                                         $n=100$ |                                         $n=10^4$ |                                         $n=10^6$ |                                         $n=10^9$ |                                      $n=10^{12}$ |
 | ----------------------------------------------:| -----------------------------------------------:| -----------------------------------------------:| ------------------------------------------------:| ------------------------------------------------:| ------------------------------------------------:| ------------------------------------------------:|
@@ -396,10 +419,10 @@ i otrzymujemy następującą tabelkę:
 |                                          $x=8$ |                                          $8.50$ |                                          $9.36$ |                                          $18.22$ |                                          $27.08$ |                                          $40.36$ |                                          $53.65$ |
 |                                          $x=9$ |                                          $9.02$ |                                          $9.93$ |                                          $19.36$ |                                          $28.79$ |                                          $42.94$ |                                          $57.09$ |
 
-Wzór na wartość o ile procent więcej sprawdzeń wymaga $x_2$ w porównaniu do $x_1$:
+Formula for the percentage by which $x_2$ requires more checks compared to $x_1$:
 $$ \frac{y_{m}(x_2)}{y_{m}(x_1)} \cdot 100\% - 100\% = \frac{\frac{\ln(n)}{2} \cdot \frac{x_2}{\ln(x_2)} + \frac{1}{2}} {\frac{\ln(n)}{2} \cdot \frac{x_1}{\ln(x_1)} + \frac{1}{2}} \cdot 100\% - 100\% $$
 
-W tym przypadku $n$ wpływa na wynik. Kod do wygenerowania drugiej tabelki jest następujący:
+In this case, $n$ does affect the result. The code to generate the second table is as follows:
 
 ```python
 def calculate_percent_difference(n, x1, x2):
@@ -424,7 +447,7 @@ print(pd.DataFrame(results2,
       .to_markdown())
 ```
 
-z którego otrzymujemy:
+from which we obtain:
 
 |                                                |                                          $n=64$ |                                         $n=100$ |                                         $n=10^4$ |                                         $n=10^6$ |                                         $n=10^9$ |                                      $n=10^{12}$ |
 | ----------------------------------------------:| -----------------------------------------------:| -----------------------------------------------:| ------------------------------------------------:| ------------------------------------------------:| ------------------------------------------------:| ------------------------------------------------:|
@@ -437,68 +460,69 @@ z którego otrzymujemy:
 |                                          $x=8$ |                                       $+37.6\%$ |                                       $+37.9\%$ |                                        $+39.3\%$ |                                        $+39.8\%$ |                                        $+40.2\%$ |                                        $+40.4\%$ |
 |                                          $x=9$ |                                       $+46.0\%$ |                                       $+46.3\%$ |                                        $+48.1\%$ |                                        $+48.7\%$ |                                        $+49.1\%$ |                                        $+49.3\%$ |
 
-### Krok 4 - optymalizacja $z_m$
+#### Step 4 - Optimizing $z_m$
 
-Wyniki takie same jak w [[Grouping by 3-4 elements = fastest search### Krok 2 - optymalizacja $z_n$|kroku 2]]. Wyjaśnienie w [[Grouping by 3-4 elements = fastest search### Krok 4 - policzenie $z_m$|kroku 4 wyników czysto matematycznych]].
+The results are the same as in [[Grouping by 3-4 elements = fastest search### Step 2 - Optimizing $z_n$|step 2]]. Explanation can be found in [[Grouping by 3-4 elements = fastest search### Step 4 - Calculating $z_m$|step 4 of the purely mathematical results]].
 
-## Dodatkowe wnioski
+# Additional Conclusions
 
-Podobną optymalizację szybkości wyszukiwania możemy zastosować w wielu innych miejscach.
+We can apply similar search speed optimization in many other areas.
 
-### Organizacja plików i folderów
+## Organization of Files and Folders
 
-Jeśli podzielimy pliki i foldery w taki sposób, że każdy folder zawiera nie więcej niż 4 pliki i foldery, to szybkość odnajdywania tego czego szukamy będzie najwyższa.
+If we organize files and folders so that each folder contains no more than 4 files and folders, the speed of finding what we are looking for will be the highest.
 
-Są jednak wyjątki.
+However, there are exceptions.
 
-Jeśli to jest nasz komputer to niektórych folderów używamy codziennie, więc możemy tutaj sobie pomóc pamięcią długotrwałą, czyli po prostu pamiętać gdzie co jest. Główny folder może zawierać np. 10 folderów typu "Dokumenty", "Nazwa firmy 1", "Nazwa firmy 2", "Prywatne", "Książki", "Kolarstwo", "Łowienie ryb" itd. Zapamiętamy to, więc nie tracimy na prędkości wyszukiwania. Jeśli to jest jednak system plików współdzielony pomiędzy kilkoma osobami, np. kilka osób w firmie pracuje na folderze "Administracja", to wtedy koniecznie powinno się stosować podział na 4, bo pracownicy nie będą mogli sobie tak skutecznie pomagać pamięcią długotrwałą i jak przyjdzie nowy pracownik to będzie mu znacznie łatwiej się odnaleźć.
+If it’s our personal computer, we might use certain folders daily, allowing us to rely on long-term memory to remember where things are. The main folder could contain, for example, 10 folders like "Documents," "Company Name 1," "Company Name 2," "Personal," "Books," "Cycling," "Fishing," etc. We remember this, so we don’t lose search speed. But if it’s a file system shared among multiple people, for instance, if several people in a company work in a folder called "Administration," it is becomes benefitial to use a division of 4. Employees cannot rely as much on long-term memory in this case, and it will be much easier for a new employee to find their way around.
 
-Drugi wyjątek to folder zawierający bardzo przejrzyście zorganizowane pliki i foldery, np. folder "Finanse" zawierający foldery:
+The second exception is a folder containing very clearly organized files and folders, such as a "Finance" folder containing subfolders like:
 - 2022-01
 - 2022-02
 - 2022-03
 - ...
 - 2023-07
 - 2023-08
-W takim przypadku tych folderów może być nawet setki, a i tak szybko znajdziemy miesiąc, którego szukamy, bo przeskakujemy wiele folderów naraz szukając właściwego, czyli innymi słowy ten system organizacji pozwala nam uniknąć czytania większości nazw folderów.
+In such a case, there could be even hundreds of these folders, but we can quickly find the month we’re looking for because we can skip over many folders at once while searching for the right one. In other words, this organization system helps us avoid reading most folder names. Another example would be a "Customers" folder which contains customer folders sorted alphabetically.
 
-Trzeci wyjątek to wyszukiwarka systemowa, która zazwyczaj pozwala szybko znaleźć właściwy plik nawet jeśli jest schowany w jakimś dziwnym miejscu. Często jednak:
-- ona nie znajduje pliku, który szukamy - możemy wręcz mieć otwarty właściwy folder i widzieć plik i jego dokładną nazwę, wpisać ją do wyszukiwarki, a ona stwierdzi, że takiego pliku nie ma
-- nie pamiętamy jak ten plik się dokładnie nazywa
+The third exception is the system search tool, which typically allows for quick finding of the correct file, even if it’s hidden in an obscure location. However, often:
+- it doesn’t find the file we’re looking for—we might have the correct folder open and see the file and its exact name, type it into the search bar, and it claims the file doesn’t exist
+- we don’t remember the exact name of the file
 
-### System IVR, czyli algorytm automatycznej sekretarki
+## IVR System
 
-Sytuacja - dzwonisz do Orange i słyszysz:
-- jeśli dzwonisz w sprawie X - wybierz 1,
-- jeśli w sprawie Y - wybierz 2,
+Scenario - you call Orange and hear:
+- if you are calling about X - press 1,
+- if about Y - press 2,
 - ...
-- jeśli z jeszcze czymś innym - wybierz 9
+- if it’s something else - press 9
 
-Przypuśćmy, że wybierasz 4, ale kategoria nie brzmiała dokładnie jak to czego potrzebujesz, więc słuchałeś do końca wszystkie 9 opcji. Po wybraniu 4 znowu słyszysz 9 opcji i znowu żadna nie brzmiała dokładnie jak to czego potrzebujesz, ale stwierdzasz, że najbliżej brzmi opcja 2. Czasami tu się sprawa skończy, a czasami usłyszysz jeszcze kolejne opcje.
+Suppose you choose 4, but the category didn’t sound exactly like what you needed, so you listened to all 9 options. After choosing 4, you hear another 9 options, and again none of them sounded like what you needed, but you decide that option 2 sounds closest. Sometimes this is the end of it, but other times you’ll hear yet more options.
 
-Żeby algorytm był najszybszy dla człowieka, na każdym etapie powinny być max 3-4 opcje.
+For the algorithm to be the fastest for a human being, there should be a maximum of 3-4 options at each stage.
 
-<span style="color: #F33;"><b>Ten jeden algorytm dzień w dzień marnuje tak wielu ludziom tak ogromne ilości czasu, że jest to wręcz niewiarygodne.</b></span> Obstawiam, że jeden dzień pracy jednego człowieka, żeby to poprawić, mógłby zaoszczędzić setki godzin miesięcznie czasu klientów Orange czy innych firm z tego typu centralami telefonicznymi.
+<span style="color: #F33;"><b>This one algorithm wastes so much time for so many people every single day that it’s almost unbelievable.</b></span> Most likely one day of work by one person to improve this could save hundreds of hours per month for Orange customers or other companies with similar telephone systems.
 
-### UI, czyli interfejs użytkownika
+## UI, or User Interface
 
-Weź swój telefon i otwórz ustawienia. Ile masz opcji widocznych już na start? Ja w moim OnePlusie mam <span style="color: #F33;"><b>26</b></span>. Jak wejdę dalej w "Ustawienia systemu" to mam tam <span style="color: #F33;"><b>16</b></span> opcji. Tego typu firmy niby zastanawiają się jak uczynić telefon łatwiejszym w użytkowaniu, a jednak nikt się nie zastanawia nad tym ile opcji może być widocznych dla użytkownika w jednym momencie. iPhone z tego co wiem też ma ustawienia, które mogą mieć na jednym widoku mnóstwo opcji. Wiem, że macbook ma obecnie <span style="color: #F33;"><b>29</b></span> kategorii na pierwszym widoku ustawień (macOS Ventura 13.5.1).
+Take your phone and open the settings. How many options do you see right at the start? On a OnePlus we checked, we had <span style="color: #F33;"><b>26</b></span>. Upon going deeper into "System Settings," there were <span style="color: #F33;"><b>16</b></span> options. Companies like these supposedly think about how to make the phone easier to use, yet no one considers how many options are visible to the user at one time. As far as we know, iPhone settings can also show a lot of options on a single screen. Currently a MacBook has <span style="color: #F33;"><b>29</b></span> categories on the first settings screen (macOS Ventura 13.5.1).
 
-Wystarczyłoby starannie podzielić te ustawienia na sekcje po max 4 elementy każda i wszystko byłoby znacznie łatwiejsze do znalezienia.
+It would be enough to carefully divide these settings into sections with a maximum of 4 items each, making everything much easier to find.
 
-Odnośnie walki iPhone'a z androidem słyszałem tego typu argument:
-- android daje znacznie więcej opcji konfigurowania telefonu pod swoje potrzeby
-- iPhone daje znacznie mniej opcji konfigurowania telefonu, ale te domyślne opcje, których się nie da zmienić, są zazwyczaj bardzo wygodne dla większości użytkowników
-- dzięki temu, że iPhone ma mniej opcji konfiguracyjnych, jest łatwiejszy w obsłudze, bo użytkownik nie musi przechodzić przez setki czy nawet tysiące różnych opcji
-- mamy tutaj więc sytuację coś za coś, tzn. albo użytkownik może wybrać łatwiejszą obsługę (iPhone), albo większe możliwości konfiguracji (android)
+Regarding the iPhone vs. Android debate, there are some arguments that are repeated often, like:
+- Android offers far more options for customizing the phone to one’s needs.
+- iPhone offers far fewer customization options, but the default options, which cannot be changed, are usually very convenient for most users.
+- Because iPhone has fewer configuration options, it is easier to use, as the user does not need to go through hundreds or even thousands of different options.
+- So we have a trade-off situation: either the user can choose easier usage (iPhone) or more configuration options (Android).
 
-Ale stosując podział na 4 możemy znacznie zwiększyć liczbę dostępnych opcji konfiguracyjnych nie tracąc zupełnie na łatwości obsługi.
+But by using a division of 4, we can significantly increase the number of available configuration options without losing ease of use.
 
-To samo możemy zastosować w wielu innych miejscach. Strony internetowe byłyby prostsze dla użytkownika, jeśli stosowałyby podział na 3-4. Np. fajnie by było, gdyby pasek u góry miał 4 opcje, a nie 7. Jeśli firma szkoleniowa ma w ofercie np. 100 szkoleń to fajnie by było, gdyby nie były wrzucone do jednego wora, tylko były uporządkowane w kategorie i podkategorie po 3-4 elementy.
+We can apply this same principle in many other places. Websites would be simpler for users if they employed divisions of 3-4. For example, it would be nice if the top menu had 4 options instead of 7. If a training company offers, say, 100 courses, it would be better if they weren’t all thrown into one big category but instead organized into categories and subcategories of 3-4 items each.
+
 
 ***
 
-# Bibliografia
+# References
 
 1. Dirlam, D. K. (1972). Most efficient chunk sizes. _Cognitive Psychology, 3_(2), 255–359. [https://doi.org/10.1016/0010-0285(72)90012-6](https://psycnet.apa.org/doi/10.1016/0010-0285(72)90012-6)
 
