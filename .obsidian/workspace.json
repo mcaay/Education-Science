@@ -8,51 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5b7e17a954a08054",
+            "id": "3a4832f287b2beb1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Grouping by 3-4 elements = fastest search.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c6227d800b356ec2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grouping by 3-4 elements = fastest search.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "19d65209c37a5f25",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fact template.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5244178caa41fdd4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Practical application template.md",
+                "file": "Large body of knowledge should be structured like a tree with each branch splitting into no more than 4 branches if ease of exploration is of utmost importance.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -126,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Grouping by 3-4 elements = fastest search.md",
+                "file": "Large body of knowledge should be structured like a tree with each branch splitting into no more than 4 branches if ease of exploration is of utmost importance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grouping by 3-4 elements = fastest search.md",
+                "file": "Large body of knowledge should be structured like a tree with each branch splitting into no more than 4 branches if ease of exploration is of utmost importance.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Grouping by 3-4 elements = fastest search.md"
+                "file": "Large body of knowledge should be structured like a tree with each branch splitting into no more than 4 branches if ease of exploration is of utmost importance.md"
               }
             }
           },
@@ -176,7 +137,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Grouping by 3-4 elements = fastest search.md",
+                "file": "Large body of knowledge should be structured like a tree with each branch splitting into no more than 4 branches if ease of exploration is of utmost importance.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -282,11 +243,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 677.5
+    "width": 677.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -301,14 +263,19 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "5b7e17a954a08054",
+  "active": "3a4832f287b2beb1",
   "lastOpenFiles": [
+    "User Interface should often show no more than 4 options at one time.md",
+    "Large body of knowledge should be structured like a tree with each branch splitting into no more than 4 branches if ease of exploration is of utmost importance.md",
+    "LICENSE.md",
+    "Changelog.md",
+    "Welcome to Education Science!.md",
+    "().md",
+    "Practical application template.md",
     "Fact template.md",
     "Grouping by 3-4 elements = fastest search.md",
-    "Practical application template.md",
     "Strong facts.md",
     "Education Science.md",
-    "Welcome to Education Science!.md",
     "Templates.md",
     "BACKLOG.md",
     "Claims (to verify).md",
@@ -316,8 +283,6 @@
     "Guesses.md",
     "Weak facts.md",
     "How this website works (in detail).md",
-    "Changelog.md",
-    "().md",
     "Working memory has capacity of 4 elements.md",
     "__files__/Pasted image 20240603204909.png",
     "__files__/Pasted image 20240601155530.png",
@@ -329,10 +294,7 @@
     "Minimal manual.md",
     "Peer instruction.md",
     "Formative assessment.md",
-    "Plan for Mixed Abilities.md",
-    "Assess prior knowledge.md",
     "__files__/Pasted image 20230813213922.png",
-    "Improving presentation skills.md",
     "__files__/Pasted image 20230814111806.png",
     "__files__/Pasted image 20230814113429.png",
     "__files__/Pasted image 20230814113411.png",

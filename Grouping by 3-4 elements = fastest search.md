@@ -39,15 +39,15 @@ So what is the most optimal way? Practically speaking, we can say that:
 	- 5th place - 6 elements - 22.6% more checks
 	- 6th place - 7 elements - 31.7% more checks
 
-The results presented above have some important caveats and possible variations, which are described further down in the note, but the general takeaway is that no matter from which perspective one is looking at the data, dividing by 3 or 4 elements is universally the most optimal.
+The results presented above have some important caveats and possible variations, which are described further down in the note, but the general takeaway is that no matter from which perspective we look at the data, dividing by 3 or 4 elements is universally the most optimal.
 
-The context for this research had more to do with a memory in a human brain rather than with files and folders. Since a related finding was that human working memory can hold only 4±1 elements at a given time, Dirlam wanted to find out that perhaps it is not bad that our working memory is so limited, that perhaps it is in some important aspects very optimal that our working memory is limited in this way.
+The context for this research had more to do with a memory in a human brain rather than with files and folders. Since a related finding was that human working memory can hold only 4±1 elements at a given time, Dirlam wanted to find out that perhaps it is not bad that our working memory is so limited, but perhaps it is in some important aspects very optimal that our working memory is limited in this way.
 
 # Scientific evidence
 
 ## Dirlam, 1972
 
-The calculations done by Dirlam in his study are all included below and expanded upon, which should generally be more digestible than the original paper.
+The calculations done by Dirlam in his study are all included below and expanded upon in several places. The level of verbosity is also higher, so it might be easier to follow the calculations here than in the original paper.
 
 ### Considerations before diving into the math
 
@@ -463,61 +463,6 @@ from which we obtain:
 #### Step 4 - Optimizing $z_m$
 
 The results are the same as in [[Grouping by 3-4 elements = fastest search### Step 2 - Optimizing $z_n$|step 2]]. Explanation can be found in [[Grouping by 3-4 elements = fastest search### Step 4 - Calculating $z_m$|step 4 of the purely mathematical results]].
-
-# Additional Conclusions
-
-We can apply similar search speed optimization in many other areas.
-
-## Organization of Files and Folders
-
-If we organize files and folders so that each folder contains no more than 4 files and folders, the speed of finding what we are looking for will be the highest.
-
-However, there are exceptions.
-
-If it’s our personal computer, we might use certain folders daily, allowing us to rely on long-term memory to remember where things are. The main folder could contain, for example, 10 folders like "Documents," "Company Name 1," "Company Name 2," "Personal," "Books," "Cycling," "Fishing," etc. We remember this, so we don’t lose search speed. But if it’s a file system shared among multiple people, for instance, if several people in a company work in a folder called "Administration," it is becomes benefitial to use a division of 4. Employees cannot rely as much on long-term memory in this case, and it will be much easier for a new employee to find their way around.
-
-The second exception is a folder containing very clearly organized files and folders, such as a "Finance" folder containing subfolders like:
-- 2022-01
-- 2022-02
-- 2022-03
-- ...
-- 2023-07
-- 2023-08
-In such a case, there could be even hundreds of these folders, but we can quickly find the month we’re looking for because we can skip over many folders at once while searching for the right one. In other words, this organization system helps us avoid reading most folder names. Another example would be a "Customers" folder which contains customer folders sorted alphabetically.
-
-The third exception is the system search tool, which typically allows for quick finding of the correct file, even if it’s hidden in an obscure location. However, often:
-- it doesn’t find the file we’re looking for—we might have the correct folder open and see the file and its exact name, type it into the search bar, and it claims the file doesn’t exist
-- we don’t remember the exact name of the file
-
-## IVR System
-
-Scenario - you call Orange and hear:
-- if you are calling about X - press 1,
-- if about Y - press 2,
-- ...
-- if it’s something else - press 9
-
-Suppose you choose 4, but the category didn’t sound exactly like what you needed, so you listened to all 9 options. After choosing 4, you hear another 9 options, and again none of them sounded like what you needed, but you decide that option 2 sounds closest. Sometimes this is the end of it, but other times you’ll hear yet more options.
-
-For the algorithm to be the fastest for a human being, there should be a maximum of 3-4 options at each stage.
-
-<span style="color: #F33;"><b>This one algorithm wastes so much time for so many people every single day that it’s almost unbelievable.</b></span> Most likely one day of work by one person to improve this could save hundreds of hours per month for Orange customers or other companies with similar telephone systems.
-
-## UI, or User Interface
-
-Take your phone and open the settings. How many options do you see right at the start? On a OnePlus we checked, we had <span style="color: #F33;"><b>26</b></span>. Upon going deeper into "System Settings," there were <span style="color: #F33;"><b>16</b></span> options. Companies like these supposedly think about how to make the phone easier to use, yet no one considers how many options are visible to the user at one time. As far as we know, iPhone settings can also show a lot of options on a single screen. Currently a MacBook has <span style="color: #F33;"><b>29</b></span> categories on the first settings screen (macOS Ventura 13.5.1).
-
-It would be enough to carefully divide these settings into sections with a maximum of 4 items each, making everything much easier to find.
-
-Regarding the iPhone vs. Android debate, there are some arguments that are repeated often, like:
-- Android offers far more options for customizing the phone to one’s needs.
-- iPhone offers far fewer customization options, but the default options, which cannot be changed, are usually very convenient for most users.
-- Because iPhone has fewer configuration options, it is easier to use, as the user does not need to go through hundreds or even thousands of different options.
-- So we have a trade-off situation: either the user can choose easier usage (iPhone) or more configuration options (Android).
-
-But by using a division of 4, we can significantly increase the number of available configuration options without losing ease of use.
-
-We can apply this same principle in many other places. Websites would be simpler for users if they employed divisions of 3-4. For example, it would be nice if the top menu had 4 options instead of 7. If a training company offers, say, 100 courses, it would be better if they weren’t all thrown into one big category but instead organized into categories and subcategories of 3-4 items each.
 
 
 ***

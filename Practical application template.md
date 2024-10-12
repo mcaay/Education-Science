@@ -1,12 +1,12 @@
 - `date created:` 2024-10-10 11:54
 - `date modified:` `=dateformat(this.file.mtime, "yyyy-MM-dd HH:mm")`
-- `tags:` 
+- `tags:` #Practical-Application 
 - `parents:` [[Templates]]
 
 ***
 
 > [!tip] Practical application
-> Description of the fact, as simply and as precisely worded as possible.
+> Description of the practical application, as simply and as precisely worded as possible.
 
 ***
 

@@ -1,101 +1,73 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": false,
+  "showOrphans": true,
   "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "tag:#Moje",
+      "query": "tag:#Strong-Fact  ",
       "color": {
         "a": 1,
-        "rgb": 15632639
+        "rgb": 16726856
       }
     },
     {
-      "query": "tag:#Electronics",
+      "query": "tag:#Strong-Facts  ",
       "color": {
         "a": 1,
-        "rgb": 5083435
+        "rgb": 16742032
       }
     },
     {
-      "query": "tag:#Education",
+      "query": "tag:#Weak-Fact  ",
       "color": {
         "a": 1,
-        "rgb": 2136319
+        "rgb": 15436611
       }
     },
     {
-      "query": "tag:#Business",
+      "query": "tag:#Weak-Facts  ",
       "color": {
         "a": 1,
-        "rgb": 52394
+        "rgb": 15447128
       }
     },
     {
-      "query": "tag:#Python",
+      "query": "tag:#Guess",
       "color": {
         "a": 1,
-        "rgb": 16442232
+        "rgb": 14539121
       }
     },
     {
-      "query": "tag:#IT_Programming",
+      "query": "tag:#Guesses  ",
       "color": {
         "a": 1,
-        "rgb": 16746564
+        "rgb": 14539168
       }
     },
     {
-      "query": "tag:#BETiS",
+      "query": "tag:#Practical-Application  ",
       "color": {
         "a": 1,
-        "rgb": 16724787
+        "rgb": 3333079
       }
     },
     {
-      "query": "tag:#ROOT",
+      "query": "tag:#START  ",
+      "color": {
+        "a": 1,
+        "rgb": 4016631
+      }
+    },
+    {
+      "query": "tag:#ROOT  ",
       "color": {
         "a": 1,
         "rgb": 0
-      }
-    },
-    {
-      "query": "tag:#Philosophy",
-      "color": {
-        "a": 1,
-        "rgb": 16745090
-      }
-    },
-    {
-      "query": "tag:#Edu-Practical-Applications",
-      "color": {
-        "a": 1,
-        "rgb": 52394
-      }
-    },
-    {
-      "query": "tag:#Edu-Strong-Facts",
-      "color": {
-        "a": 1,
-        "rgb": 16724787
-      }
-    },
-    {
-      "query": "tag:#Edu-Weak-Facts",
-      "color": {
-        "a": 1,
-        "rgb": 16746564
-      }
-    },
-    {
-      "query": "tag:#Edu-Guesses",
-      "color": {
-        "a": 1,
-        "rgb": 13421602
       }
     }
   ],
@@ -109,6 +81,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 500,
-  "scale": 0.6636433451367908,
+  "scale": 0.2851315517994416,
   "close": true
 }
