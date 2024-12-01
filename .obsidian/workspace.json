@@ -13,11 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Large body of knowledge should be structured like a tree with each branch splitting into no more than 4 branches if ease of exploration is of utmost importance.md",
+                "file": "Grouping by 3-4 elements = fastest search.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Grouping by 3-4 elements = fastest search"
             }
           }
         ]
@@ -40,7 +42,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byModifiedTime"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -55,7 +59,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -63,7 +69,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -87,10 +95,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Large body of knowledge should be structured like a tree with each branch splitting into no more than 4 branches if ease of exploration is of utmost importance.md",
+                "file": "Grouping by 3-4 elements = fastest search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Grouping by 3-4 elements = fastest search"
             }
           },
           {
@@ -99,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Large body of knowledge should be structured like a tree with each branch splitting into no more than 4 branches if ease of exploration is of utmost importance.md",
+                "file": "Grouping by 3-4 elements = fastest search.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +117,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Grouping by 3-4 elements = fastest search"
             }
           },
           {
@@ -118,7 +130,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -127,8 +141,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Large body of knowledge should be structured like a tree with each branch splitting into no more than 4 branches if ease of exploration is of utmost importance.md"
-              }
+                "file": "Grouping by 3-4 elements = fastest search.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Grouping by 3-4 elements = fastest search"
             }
           },
           {
@@ -137,7 +153,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Large body of knowledge should be structured like a tree with each branch splitting into no more than 4 branches if ease of exploration is of utmost importance.md",
+                "file": "Grouping by 3-4 elements = fastest search.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -227,7 +243,9 @@
                   "scale": 1.0368368968898942,
                   "close": true
                 }
-              }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of Grouping by 3-4 elements = fastest search"
             }
           },
           {
@@ -239,7 +257,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ],
@@ -265,15 +285,15 @@
   },
   "active": "3a4832f287b2beb1",
   "lastOpenFiles": [
-    "User Interface should often show no more than 4 options at one time.md",
     "Large body of knowledge should be structured like a tree with each branch splitting into no more than 4 branches if ease of exploration is of utmost importance.md",
+    "Grouping by 3-4 elements = fastest search.md",
+    "User Interface should often show no more than 4 options at one time.md",
     "LICENSE.md",
     "Changelog.md",
     "Welcome to Education Science!.md",
     "().md",
     "Practical application template.md",
     "Fact template.md",
-    "Grouping by 3-4 elements = fastest search.md",
     "Strong facts.md",
     "Education Science.md",
     "Templates.md",
