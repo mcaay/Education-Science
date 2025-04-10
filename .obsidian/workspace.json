@@ -13,13 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Grouping by 3-4 elements = fastest search.md",
+                "file": "Claims (to verify).md",
                 "mode": "source",
+                "source": false,
                 "backlinks": true,
-                "source": false
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "Grouping by 3-4 elements = fastest search"
+              "title": "Claims (to verify)"
             }
           }
         ]
@@ -41,7 +50,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "byModifiedTime",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -153,7 +163,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Grouping by 3-4 elements = fastest search.md",
+                "file": "Claims (to verify).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -245,7 +255,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Grouping by 3-4 elements = fastest search"
+              "title": "Graph of Claims (to verify)"
             }
           },
           {
@@ -267,8 +277,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 677.5,
-    "collapsed": true
+    "width": 482.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -285,23 +294,23 @@
   },
   "active": "3a4832f287b2beb1",
   "lastOpenFiles": [
-    "Large body of knowledge should be structured like a tree with each branch splitting into no more than 4 branches if ease of exploration is of utmost importance.md",
+    "BACKLOG.md",
+    "Education Science.md",
+    "Guesses.md",
+    "Weak facts.md",
+    "Strong facts.md",
     "Grouping by 3-4 elements = fastest search.md",
+    "Large body of knowledge should be structured like a tree with each branch splitting into no more than 4 branches if ease of exploration is of utmost importance.md",
+    "Welcome to Education Science!.md",
     "User Interface should often show no more than 4 options at one time.md",
     "LICENSE.md",
     "Changelog.md",
-    "Welcome to Education Science!.md",
     "().md",
     "Practical application template.md",
     "Fact template.md",
-    "Strong facts.md",
-    "Education Science.md",
     "Templates.md",
-    "BACKLOG.md",
     "Claims (to verify).md",
     "Education note system.canvas",
-    "Guesses.md",
-    "Weak facts.md",
     "How this website works (in detail).md",
     "Working memory has capacity of 4 elements.md",
     "__files__/Pasted image 20240603204909.png",
