@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Claims (to verify).md",
+                "file": "Explaining misconceptions increases learning speed.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Claims (to verify)"
+              "title": "Explaining misconceptions increases learning speed"
             }
           }
         ]
@@ -163,7 +163,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Claims (to verify).md",
+                "file": "Explaining misconceptions increases learning speed.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -255,7 +255,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Claims (to verify)"
+              "title": "Graph of Explaining misconceptions increases learning speed"
             }
           },
           {
@@ -294,13 +294,14 @@
   },
   "active": "3a4832f287b2beb1",
   "lastOpenFiles": [
-    "BACKLOG.md",
+    "Large body of knowledge should be structured like a tree with each branch splitting into no more than 4 branches if ease of exploration is of utmost importance.md",
+    "Grouping by 3-4 elements = fastest search.md",
+    "Strong facts.md",
     "Education Science.md",
+    "BACKLOG.md",
+    "Claims (to verify).md",
     "Guesses.md",
     "Weak facts.md",
-    "Strong facts.md",
-    "Grouping by 3-4 elements = fastest search.md",
-    "Large body of knowledge should be structured like a tree with each branch splitting into no more than 4 branches if ease of exploration is of utmost importance.md",
     "Welcome to Education Science!.md",
     "User Interface should often show no more than 4 options at one time.md",
     "LICENSE.md",
@@ -309,7 +310,6 @@
     "Practical application template.md",
     "Fact template.md",
     "Templates.md",
-    "Claims (to verify).md",
     "Education note system.canvas",
     "How this website works (in detail).md",
     "Working memory has capacity of 4 elements.md",

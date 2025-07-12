@@ -1,3 +1,7 @@
+---
+share_link: https://share.note.sx/moq5ci38#q3TmAQUp2/ZS9BGjEK0wIVI4HN+5wgc/9ktcxqCL/pc
+share_updated: 2025-07-11T22:54:29+02:00
+---
 - `date created:` 2024-10-10 11:54
 - `date modified:` `=dateformat(this.file.mtime, "yyyy-MM-dd HH:mm")`
 - `tags:` #Practical-Application 
