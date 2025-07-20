@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "041a74acbac1d6af",
+        "id": "bc2c9dfdbe3a6837",
         "type": "tabs",
         "children": [
           {
-            "id": "3a4832f287b2beb1",
+            "id": "cfab83a0bbcefd32",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Explaining misconceptions increases learning speed.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Explaining misconceptions increases learning speed"
+              "title": "New tab"
             }
           }
         ]
@@ -139,7 +125,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -151,10 +139,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Grouping by 3-4 elements = fastest search.md"
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Grouping by 3-4 elements = fastest search"
+              "title": "Outline"
             }
           },
           {
@@ -163,7 +153,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Explaining misconceptions increases learning speed.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -250,12 +239,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 124,
-                  "scale": 1.0368368968898942,
+                  "scale": 0.9088260866975728,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Explaining misconceptions increases learning speed"
+              "title": "Graph view"
             }
           },
           {
@@ -277,7 +266,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 482.5
+    "width": 678.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -292,18 +281,19 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "3a4832f287b2beb1",
+  "active": "cfab83a0bbcefd32",
   "lastOpenFiles": [
+    "User Interface should often show no more than 4 options at one time.md",
     "Large body of knowledge should be structured like a tree with each branch splitting into no more than 4 branches if ease of exploration is of utmost importance.md",
     "Grouping by 3-4 elements = fastest search.md",
     "Strong facts.md",
     "Education Science.md",
     "BACKLOG.md",
     "Claims (to verify).md",
+    "Explaining misconceptions increases learning speed.md",
     "Guesses.md",
     "Weak facts.md",
     "Welcome to Education Science!.md",
-    "User Interface should often show no more than 4 options at one time.md",
     "LICENSE.md",
     "Changelog.md",
     "().md",
@@ -322,7 +312,6 @@
     "Feynman learning technique.md",
     "Minimal manual.md",
     "Peer instruction.md",
-    "Formative assessment.md",
     "__files__/Pasted image 20230813213922.png",
     "__files__/Pasted image 20230814111806.png",
     "__files__/Pasted image 20230814113429.png",

@@ -1,3 +1,7 @@
+---
+share_link: https://share.note.sx/44jgc7ui#gPbMZbCDnA0/LKVVxny4eN/KowD2TPtcMCD1GVy6ACY
+share_updated: 2025-07-20T10:54:46+02:00
+---
 - `date created:` 2023-09-12 11:52
 - `date modified:` `=dateformat(this.file.mtime, "yyyy-MM-dd HH:mm")`
 - `tags:` #Strong-Fact 
