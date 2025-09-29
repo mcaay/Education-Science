@@ -11,10 +11,24 @@
             "id": "cfab83a0bbcefd32",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Grouping by 3-4 elements = fastest search.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Grouping by 3-4 elements = fastest search"
             }
           }
         ]
@@ -153,6 +167,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Grouping by 3-4 elements = fastest search.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -239,12 +254,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 124,
-                  "scale": 0.9088260866975728,
+                  "scale": 2.757527940712613,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Graph of Grouping by 3-4 elements = fastest search"
             }
           },
           {
@@ -266,10 +281,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 678.5
+    "width": 580.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -283,17 +299,19 @@
   },
   "active": "cfab83a0bbcefd32",
   "lastOpenFiles": [
-    "User Interface should often show no more than 4 options at one time.md",
-    "Large body of knowledge should be structured like a tree with each branch splitting into no more than 4 branches if ease of exploration is of utmost importance.md",
-    "Grouping by 3-4 elements = fastest search.md",
     "Strong facts.md",
     "Education Science.md",
     "BACKLOG.md",
-    "Claims (to verify).md",
-    "Explaining misconceptions increases learning speed.md",
     "Guesses.md",
     "Weak facts.md",
+    "Grouping by 3-4 elements = fastest search.md",
     "Welcome to Education Science!.md",
+    "User Interface should often show no more than 4 options at one time.md",
+    "__files__/Pasted image 20240601155530.png",
+    "How this website works (in detail).md",
+    "Large body of knowledge should be structured like a tree with each branch splitting into no more than 4 branches if ease of exploration is of utmost importance.md",
+    "Claims (to verify).md",
+    "Explaining misconceptions increases learning speed.md",
     "LICENSE.md",
     "Changelog.md",
     "().md",
@@ -301,17 +319,14 @@
     "Fact template.md",
     "Templates.md",
     "Education note system.canvas",
-    "How this website works (in detail).md",
     "Working memory has capacity of 4 elements.md",
     "__files__/Pasted image 20240603204909.png",
-    "__files__/Pasted image 20240601155530.png",
     "Use empathy.md",
     "Act in a way that pushes the student identity toward an identity of a capable person.md",
     "Limited working memory is better for language learning.md",
     "Limited working memory is better than an unlimited one for detecting imperfect correlations.md",
     "Feynman learning technique.md",
     "Minimal manual.md",
-    "Peer instruction.md",
     "__files__/Pasted image 20230813213922.png",
     "__files__/Pasted image 20230814111806.png",
     "__files__/Pasted image 20230814113429.png",
