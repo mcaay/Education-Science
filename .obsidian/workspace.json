@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "Grouping by 3-4 elements = fastest search"
             }
+          },
+          {
+            "id": "40fe6a8e5da86f97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "User Interface should often show no more than 4 options at one time.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "User Interface should often show no more than 4 options at one time"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,7 +192,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Grouping by 3-4 elements = fastest search.md",
+                "file": "User Interface should often show no more than 4 options at one time.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -259,7 +284,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Grouping by 3-4 elements = fastest search"
+              "title": "Graph of User Interface should often show no more than 4 options at one time"
             }
           },
           {
@@ -297,19 +322,19 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "cfab83a0bbcefd32",
+  "active": "40fe6a8e5da86f97",
   "lastOpenFiles": [
+    "Large body of knowledge should be structured like a tree with each branch splitting into no more than 4 branches if ease of exploration is of utmost importance.md",
+    "Grouping by 3-4 elements = fastest search.md",
+    "User Interface should often show no more than 4 options at one time.md",
     "Strong facts.md",
     "Education Science.md",
     "BACKLOG.md",
     "Guesses.md",
     "Weak facts.md",
-    "Grouping by 3-4 elements = fastest search.md",
     "Welcome to Education Science!.md",
-    "User Interface should often show no more than 4 options at one time.md",
     "__files__/Pasted image 20240601155530.png",
     "How this website works (in detail).md",
-    "Large body of knowledge should be structured like a tree with each branch splitting into no more than 4 branches if ease of exploration is of utmost importance.md",
     "Claims (to verify).md",
     "Explaining misconceptions increases learning speed.md",
     "LICENSE.md",
