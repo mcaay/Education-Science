@@ -279,12 +279,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 124,
-                  "scale": 2.757527940712613,
+                  "scale": 2.8522933751617265,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of User Interface should often show no more than 4 options at one time"
+              "title": "Local graph"
             }
           },
           {
@@ -324,9 +324,9 @@
   },
   "active": "40fe6a8e5da86f97",
   "lastOpenFiles": [
-    "Large body of knowledge should be structured like a tree with each branch splitting into no more than 4 branches if ease of exploration is of utmost importance.md",
     "Grouping by 3-4 elements = fastest search.md",
     "User Interface should often show no more than 4 options at one time.md",
+    "Large body of knowledge should be structured like a tree with each branch splitting into no more than 4 branches if ease of exploration is of utmost importance.md",
     "Strong facts.md",
     "Education Science.md",
     "BACKLOG.md",

@@ -9,5 +9,6 @@
   "theme": "system",
   "showViewHeader": true,
   "nativeMenus": true,
-  "cssTheme": ""
+  "cssTheme": "",
+  "showRibbon": false
 }
